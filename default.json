@@ -1,0 +1,1576 @@
+{
+  "format": "cube-tutorial-v1",
+  "version": 5,
+  "levels": [
+    {
+      "id": "terms",
+      "title": {
+        "en": "Terms",
+        "ja": "用語",
+        "zh": "术语",
+        "fr": "Termes",
+        "ko": "용어",
+        "es": "Términos",
+        "pt": "Termos",
+        "de": "Begriffe",
+        "ru": "Термины"
+      },
+      "steps": [
+        {
+          "id": "term-piece",
+          "title": {
+            "en": "Piece",
+            "ja": "ピース",
+            "zh": "块",
+            "fr": "Pièce",
+            "ko": "피스",
+            "es": "Pieza",
+            "pt": "Peça",
+            "de": "Stein",
+            "ru": "Деталь"
+          },
+          "description": {
+            "en": "The 26 cuboids that make up a 3x3 cube puzzle are called pieces.",
+            "ja": "3x3キューブパズルを構成する全26個の直方体をピースと呼びます。",
+            "zh": "构成3x3魔方的全部26个小方块称为“块”。",
+            "fr": "Les 26 cuboïdes qui composent un cube 3x3 sont appelés des pièces.",
+            "ko": "3x3 큐브 퍼즐을 구성하는 26개의 조각을 피스라고 합니다.",
+            "es": "Los 26 cuboides que componen un cubo 3x3 se llaman piezas.",
+            "pt": "Os 26 cuboides que compõem um cubo 3x3 são chamados de peças.",
+            "de": "Die 26 Quader, aus denen ein 3x3-Würfel besteht, werden Steine genannt.",
+            "ru": "26 деталей, из которых состоит кубик 3x3, называются деталями."
+          },
+          "image": "tutorial/terms/term1-piece.png",
+          "items": []
+        },
+        {
+          "id": "term-center-piece",
+          "title": {
+            "en": "Center piece",
+            "ja": "センターピース",
+            "zh": "中心块",
+            "fr": "Pièce centrale",
+            "ko": "센터 피스",
+            "es": "Pieza central",
+            "pt": "Peça central",
+            "de": "Mittelstein",
+            "ru": "Центральная деталь"
+          },
+          "description": {
+            "en": "The piece at the center of each face is called the center piece (or simply the center).",
+            "ja": "各面の中心のピースをセンターピース(または単にセンター)と呼びます。",
+            "zh": "每个面中心的块称为中心块（或简称中心）。",
+            "fr": "La pièce au centre de chaque face est appelée pièce centrale (ou simplement centre).",
+            "ko": "각 면의 중앙에 있는 피스를 센터 피스(또는 센터)라고 합니다.",
+            "es": "La pieza en el centro de cada cara se llama pieza central (o simplemente centro).",
+            "pt": "A peça no centro de cada face é chamada de peça central (ou simplesmente centro).",
+            "de": "Der Stein in der Mitte jeder Seite heißt Mittelstein (oder einfach Center).",
+            "ru": "Деталь в центре каждой грани называется центральной деталью (или просто центром)."
+          },
+          "image": "tutorial/terms/term2-center-piece.png",
+          "items": []
+        },
+        {
+          "id": "term-corner-piece",
+          "title": {
+            "en": "Corner piece",
+            "ja": "コーナーピース",
+            "zh": "角块",
+            "fr": "Pièce de coin",
+            "ko": "코너 피스",
+            "es": "Pieza de esquina",
+            "pt": "Peça de canto",
+            "de": "Eckstein",
+            "ru": "Угловая деталь"
+          },
+          "description": {
+            "en": "The pieces at the corners are called corner pieces (or simply corners).",
+            "ja": "角にあるピースをコーナーピース(または単にコーナー)と呼びます。",
+            "zh": "位于角上的块称为角块（或简称角）。",
+            "fr": "Les pièces situées aux coins sont appelées pièces de coin (ou simplement coins).",
+            "ko": "모서리(꼭짓점)에 있는 피스를 코너 피스(또는 코너)라고 합니다.",
+            "es": "Las piezas de las esquinas se llaman piezas de esquina (o simplemente esquinas).",
+            "pt": "As peças nos cantos são chamadas de peças de canto (ou simplesmente cantos).",
+            "de": "Die Steine an den Ecken heißen Ecksteine (oder einfach Ecken).",
+            "ru": "Детали в углах называются угловыми деталями (или просто углами)."
+          },
+          "image": "tutorial/terms/term3-corner-piece.png",
+          "items": []
+        },
+        {
+          "id": "term-edge-piece",
+          "title": {
+            "en": "Edge piece",
+            "ja": "エッジピース",
+            "zh": "棱块",
+            "fr": "Pièce d'arête",
+            "ko": "엣지 피스",
+            "es": "Pieza de arista",
+            "pt": "Peça de aresta",
+            "de": "Kantenstein",
+            "ru": "Реберная деталь"
+          },
+          "description": {
+            "en": "The pieces between two corners are called edge pieces (or simply edges).",
+            "ja": "コーナーに挟まれた辺となるピースをエッジピース(または単にエッジ)と呼びます。",
+            "zh": "夹在两个角块之间的块称为棱块（或简称棱）。",
+            "fr": "Les pièces situées entre deux coins sont appelées pièces d'arête (ou simplement arêtes).",
+            "ko": "코너 사이에 끼인 변의 피스를 엣지 피스(또는 엣지)라고 합니다.",
+            "es": "Las piezas entre dos esquinas se llaman piezas de arista (o simplemente aristas).",
+            "pt": "As peças entre dois cantos são chamadas de peças de aresta (ou simplesmente arestas).",
+            "de": "Die Steine zwischen zwei Ecken heißen Kantensteine (oder einfach Kanten).",
+            "ru": "Детали между двумя углами называются реберными деталями (или просто рёбрами)."
+          },
+          "image": "tutorial/terms/term4-edge-piece.png",
+          "items": []
+        },
+        {
+          "id": "term-1st-layer",
+          "title": {
+            "en": "1st layer",
+            "ja": "一層目",
+            "zh": "第一层",
+            "fr": "1ère couche",
+            "ko": "1층",
+            "es": "1ª capa",
+            "pt": "1ª camada",
+            "de": "1. Schicht",
+            "ru": "Первый слой"
+          },
+          "description": {
+            "en": "The layer that includes the bottom face is called the 1st layer.",
+            "ja": "底面を含む層を一層目と呼びます。",
+            "zh": "包含底面的一层称为第一层。",
+            "fr": "La couche qui comprend la face du bas est appelée 1ère couche.",
+            "ko": "바닥면을 포함하는 층을 1층이라고 합니다.",
+            "es": "La capa que incluye la cara inferior se llama 1ª capa.",
+            "pt": "A camada que inclui a face inferior é chamada de 1ª camada.",
+            "de": "Die Schicht mit der Unterseite wird 1. Schicht genannt.",
+            "ru": "Слой, включающий нижнюю грань, называется первым слоем."
+          },
+          "image": "tutorial/terms/term5-1st-layer.png",
+          "items": []
+        },
+        {
+          "id": "term-2nd-layer",
+          "title": {
+            "en": "2nd layer",
+            "ja": "二層目",
+            "zh": "第二层",
+            "fr": "2ème couche",
+            "ko": "2층",
+            "es": "2ª capa",
+            "pt": "2ª camada",
+            "de": "2. Schicht",
+            "ru": "Второй слой"
+          },
+          "description": {
+            "en": "The middle layer is called the 2nd layer.",
+            "ja": "中間の層を二層目と呼びます。",
+            "zh": "中间的一层称为第二层。",
+            "fr": "La couche du milieu est appelée 2ème couche.",
+            "ko": "중간 층을 2층이라고 합니다.",
+            "es": "La capa intermedia se llama 2ª capa.",
+            "pt": "A camada do meio é chamada de 2ª camada.",
+            "de": "Die mittlere Schicht wird 2. Schicht genannt.",
+            "ru": "Средний слой называется вторым слоем."
+          },
+          "image": "tutorial/terms/term6-2nd-layer.png",
+          "items": []
+        },
+        {
+          "id": "term-last-layer",
+          "title": {
+            "en": "Last layer",
+            "ja": "最終層",
+            "zh": "最后一层",
+            "fr": "Dernière couche",
+            "ko": "마지막 층",
+            "es": "Última capa",
+            "pt": "Última camada",
+            "de": "Letzte Schicht",
+            "ru": "Последний слой"
+          },
+          "description": {
+            "en": "The layer that includes the top face is called the last layer.",
+            "ja": "上面を含む層を最終層と呼びます。",
+            "zh": "包含顶面的一层称为最后一层。",
+            "fr": "La couche qui comprend la face du haut est appelée dernière couche.",
+            "ko": "윗면을 포함하는 층을 마지막 층이라고 합니다.",
+            "es": "La capa que incluye la cara superior se llama última capa.",
+            "pt": "A camada que inclui a face superior é chamada de última camada.",
+            "de": "Die Schicht mit der Oberseite wird letzte Schicht genannt.",
+            "ru": "Слой, включающий верхнюю грань, называется последним слоем."
+          },
+          "image": "tutorial/terms/term7-last-layer.png",
+          "items": []
+        },
+        {
+          "id": "term-guid",
+          "title": {
+            "en": "Guide",
+            "ja": "ガイド",
+            "zh": "引导",
+            "fr": "Guide",
+            "ko": "가이드",
+            "es": "Guía",
+            "pt": "Guia",
+            "de": "Anleitung",
+            "ru": "Подсказка"
+          },
+          "description": {
+            "en": "In tutorial lessons, you can follow a pre-defined sequence of moves by swiping the displayed guide (arrow). <br>※\"Guide\" is a term specific to this app.",
+            "ja": "チュートリアルのレッスンでは、表示されたガイド(矢印)をスワイプすることで予め用意された手順に従いキューブを操作することができます。<br>※「ガイド」は本アプリケーション独自の用語です。",
+            "zh": "在教程课程中，滑动显示的引导（箭头）即可按照预设的步骤操作魔方。<br>※“引导”是本应用的专有术语。",
+            "fr": "Dans les leçons du tutoriel, vous pouvez suivre une séquence de mouvements prédéfinie en glissant sur le guide (flèche) affiché. <br>※« Guide » est un terme propre à cette application.",
+            "ko": "튜토리얼 레슨에서는 표시된 가이드(화살표)를 스와이프하여 미리 준비된 순서대로 큐브를 조작할 수 있습니다. <br>※\"가이드\"는 이 앱 고유의 용어입니다.",
+            "es": "En las lecciones del tutorial, puedes seguir una secuencia de movimientos predefinida deslizando la guía (flecha) mostrada. <br>※\"Guía\" es un término propio de esta aplicación.",
+            "pt": "Nas lições do tutorial, você pode seguir uma sequência de movimentos predefinida deslizando o guia (seta) exibido. <br>※\"Guia\" é um termo específico deste aplicativo.",
+            "de": "In den Tutorial-Lektionen können Sie eine vorbereitete Zugfolge ausführen, indem Sie über den angezeigten Guide (Pfeil) wischen. <br>※„Guide“ ist ein appspezifischer Begriff.",
+            "ru": "В уроках руководства вы можете выполнять заранее заданную последовательность ходов, проводя пальцем по отображаемой подсказке (стрелке). <br>※«Подсказка» — термин, специфичный для этого приложения."
+          },
+          "image": "tutorial/terms/term8-guide.png",
+          "items": []
+        },
+        {
+          "id": "term-command",
+          "title": {
+            "en": "Command",
+            "ja": "コマンド",
+            "zh": "指令",
+            "fr": "Commande",
+            "ko": "명령",
+            "es": "Comando",
+            "pt": "Comando",
+            "de": "Befehl",
+            "ru": "Команда"
+          },
+          "description": {
+            "en": "A command is a sequence of cube moves that can be assigned to a cell (one face of a piece). In tutorial lessons, double-tapping ⌖ runs a pre-set command. Registering a command lets you run it during the final exam or in normal cube operation too. <br>※\"Command\" is a term specific to this app.",
+            "ja": "コマンドとは、マス(ピースの一面)に割り当てることが可能な連続したキューブ操作です。チュートリアルのレッスンでは、⌖をダブルタップすることで予め用意されたコマンドを実行できます。コマンドを登録することで卒業試験や通常のキューブ操作でもコマンドを実行可能になります。<br>※「コマンド」は本アプリケーション独自の用語です。",
+            "zh": "指令是可以分配给某个格子（一个块的一面）的一连串魔方操作。在教程课程中，双击⌖即可执行预设的指令。注册指令后，在毕业测试或普通操作中也能执行该指令。<br>※“指令”是本应用的专有术语。",
+            "fr": "Une commande est une séquence de mouvements de cube pouvant être associée à une case (une face d'une pièce). Dans les leçons du tutoriel, un double-tap sur ⌖ exécute une commande prédéfinie. Enregistrer une commande permet de l'exécuter aussi pendant l'examen final ou en manipulation normale. <br>※« Commande » est un terme propre à cette application.",
+            "ko": "명령이란 칸(피스의 한 면)에 할당할 수 있는 연속된 큐브 조작입니다. 튜토리얼 레슨에서는 ⌖을 더블 탭하면 미리 준비된 명령을 실행할 수 있습니다. 명령을 등록하면 졸업 시험이나 일반 조작에서도 명령을 실행할 수 있습니다. <br>※\"명령\"은 이 앱 고유의 용어입니다.",
+            "es": "Un comando es una secuencia de movimientos del cubo que se puede asignar a una casilla (una cara de una pieza). En las lecciones del tutorial, tocar dos veces ⌖ ejecuta un comando predefinido. Registrar un comando permite ejecutarlo también en el examen final o en el uso normal. <br>※\"Comando\" es un término propio de esta aplicación.",
+            "pt": "Um comando é uma sequência de movimentos do cubo que pode ser atribuída a uma célula (uma face de uma peça). Nas lições do tutorial, tocar duas vezes em ⌖ executa um comando predefinido. Registrar um comando permite executá-lo também no exame final ou no uso normal. <br>※\"Comando\" é um termo específico deste aplicativo.",
+            "de": "Ein Befehl ist eine Zugfolge, die einem Feld (einer Seite eines Steins) zugewiesen werden kann. In den Tutorial-Lektionen führt ein Doppeltipp auf ⌖ einen vorbereiteten Befehl aus. Registrierte Befehle können auch in der Abschlussprüfung oder im normalen Betrieb ausgeführt werden. <br>※„Befehl“ ist ein appspezifischer Begriff.",
+            "ru": "Команда — это последовательность ходов кубика, которую можно назначить на ячейку (одну грань детали). В уроках руководства двойное нажатие на ⌖ выполняет заранее заданную команду. Зарегистрировав команду, её можно выполнять и на выпускном экзамене, и при обычном использовании. <br>※«Команда» — термин, специфичный для этого приложения."
+          },
+          "image": "tutorial/terms/term9-command.png",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "LBL",
+      "title": {
+        "en": "LBL Method (Beginner)",
+        "ja": "LBL法(初心者向け)",
+        "zh": "LBL层先法（初学者）",
+        "fr": "Méthode LBL (débutant)",
+        "ko": "LBL법 (초급자용)",
+        "es": "Método LBL (principiante)",
+        "pt": "Método LBL (iniciante)",
+        "de": "LBL-Methode (Anfänger)",
+        "ru": "Метод LBL (для начинающих)"
+      },
+      "steps": [
+        {
+          "id": "LBL-step0-abstruct",
+          "title": {
+            "en": "What is the LBL method?",
+            "ja": "LBL法とは",
+            "zh": "什么是LBL层先法",
+            "fr": "Qu'est-ce que la méthode LBL ?",
+            "ko": "LBL법이란?",
+            "es": "¿Qué es el método LBL?",
+            "pt": "O que é o método LBL?",
+            "de": "Was ist die LBL-Methode?",
+            "ru": "Что такое метод LBL?"
+          },
+          "description": {
+            "en": "The LBL method is one way to solve the 3x3 cube puzzle. It is named \"Layer By Layer\" because you solve the 1st layer, then the 2nd layer, then the last layer, one layer at a time.",
+            "ja": "LBL法は、3x3キューブパズルの解法の一つです。一層目→ニ層目→最終層と一層ずつ順番に揃えていくことから、Layer By Layer(層ごとに)法と名付けられています。",
+            "zh": "LBL层先法是解开3x3魔方的方法之一。因为按照第一层→第二层→最后一层的顺序逐层还原，所以被称为Layer By Layer（逐层）法。",
+            "fr": "La méthode LBL est une façon de résoudre le cube 3x3. Elle est nommée « Layer By Layer » (couche par couche) car on résout la 1ère couche, puis la 2ème, puis la dernière, une couche à la fois.",
+            "ko": "LBL법은 3x3 큐브 퍼즐을 푸는 방법 중 하나입니다. 1층→2층→마지막 층 순서로 한 층씩 맞추기 때문에 Layer By Layer(층별)법이라고 불립니다.",
+            "es": "El método LBL es una forma de resolver el cubo 3x3. Se llama \"Layer By Layer\" (capa por capa) porque resuelves la 1ª capa, luego la 2ª y luego la última, una capa a la vez.",
+            "pt": "O método LBL é uma forma de resolver o cubo 3x3. É chamado de \"Layer By Layer\" (camada por camada) porque você resolve a 1ª camada, depois a 2ª e depois a última, uma camada de cada vez.",
+            "de": "Die LBL-Methode ist eine Möglichkeit, den 3x3-Würfel zu lösen. Sie heißt „Layer By Layer“ (Schicht für Schicht), weil man zuerst die 1., dann die 2. und schließlich die letzte Schicht löst.",
+            "ru": "Метод LBL — один из способов сборки кубика 3x3. Он называется «Layer By Layer» (слой за слоем), потому что вы собираете сначала первый слой, затем второй, затем последний — по одному слою за раз."
+          },
+          "image": "tutorial/LBL/goals/step7-goal.png",
+          "items": []
+        },
+        {
+          "id": "LBL-step1-cross",
+          "title": {
+            "en": "Step 1. Cross",
+            "ja": "ステップ1. クロス",
+            "zh": "步骤1. 十字",
+            "fr": "Étape 1. Croix",
+            "ko": "스텝 1. 십자",
+            "es": "Paso 1. Cruz",
+            "pt": "Passo 1. Cruz",
+            "de": "Schritt 1. Kreuz",
+            "ru": "Шаг 1. Крест"
+          },
+          "description": {
+            "en": "Solve the edges of the 1st layer. When all 4 edges are solved, they form a cross shape, hence the name. The side colors of the cross must also match their centers.",
+            "ja": "一層目のエッジを揃える。4つのエッジが揃った状態が十字架の形になるため、クロスと呼ばれます。この際、クロスの側面とセンターの色が全て一致している必要があります。",
+            "zh": "还原第一层的棱块。当4个棱块都归位时会形成十字形状，因此得名。此时十字侧面的颜色必须与各自的中心块颜色一致。",
+            "fr": "Résolvez les arêtes de la 1ère couche. Lorsque les 4 arêtes sont résolues, elles forment une croix, d'où le nom. Les couleurs latérales de la croix doivent aussi correspondre à leurs centres.",
+            "ko": "1층의 엣지를 맞춥니다. 4개의 엣지가 맞춰지면 십자가 모양이 되기 때문에 십자라고 불립니다. 이때 십자의 옆면과 센터의 색이 모두 일치해야 합니다.",
+            "es": "Resuelve las aristas de la 1ª capa. Cuando las 4 aristas están resueltas, forman una cruz, de ahí el nombre. Los colores laterales de la cruz también deben coincidir con sus centros.",
+            "pt": "Resolva as arestas da 1ª camada. Quando as 4 arestas estão resolvidas, elas formam uma cruz, daí o nome. As cores laterais da cruz também devem coincidir com seus centros.",
+            "de": "Löse die Kanten der 1. Schicht. Sind alle 4 Kanten gelöst, bilden sie ein Kreuz – daher der Name. Die Seitenfarben des Kreuzes müssen zu ihren Mittelsteinen passen.",
+            "ru": "Соберите рёбра первого слоя. Когда все 4 ребра собраны, они образуют форму креста, отсюда и название. Боковые цвета креста также должны совпадать с центрами."
+          },
+          "image": "tutorial/LBL/goals/step1-goal.png",
+          "items": [
+            {
+              "id": "LBL-step1-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-1",
+                "ja": "レッスン 1-1",
+                "zh": "课程 1-1",
+                "fr": "Leçon 1-1",
+                "ko": "레슨 1-1",
+                "es": "Lección 1-1",
+                "pt": "Lição 1-1",
+                "de": "Lektion 1-1",
+                "ru": "Урок 1-1"
+              },
+              "initialState": "WWWWWWWdWWWWWRWWRWWfWWFWWwWWwWDDDWDWWWWWLWWLWWWWWBWWBW",
+              "moves": "CAM(65,36) F2 CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-1 (⌖)",
+                "ja": "レッスン 1-1 (⌖)",
+                "zh": "课程 1-1 (⌖)",
+                "fr": "Leçon 1-1 (⌖)",
+                "ko": "레슨 1-1 (⌖)",
+                "es": "Lección 1-1 (⌖)",
+                "pt": "Lição 1-1 (⌖)",
+                "de": "Lektion 1-1 (⌖)",
+                "ru": "Урок 1-1 (⌖)"
+              },
+              "initialState": "WWWWWWWdWWWWWRWWRWWfWWFWWwWWwWDDDWDWWWWWLWWLWWWWWBWWBW",
+              "moves": "CAM(65,36) C_F5(F2) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson2",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-2",
+                "ja": "レッスン 1-2",
+                "zh": "课程 1-2",
+                "fr": "Leçon 1-2",
+                "ko": "레슨 1-2",
+                "es": "Lección 1-2",
+                "pt": "Lição 1-2",
+                "de": "Lektion 1-2",
+                "ru": "Урок 1-2"
+              },
+              "hint1": "tutorial/LBL/step1-2-hint.png",
+              "initialState": "WWWWWWWfWWWWWRWWRWWdWWFWWwWWwWDDDWDWWWWWLWWLWWWWWBWWBW",
+              "moves": "CAM(65,36) U(F) M'(F) U'(F) M(F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-2 (⌖)",
+                "ja": "レッスン 1-2 (⌖)",
+                "zh": "课程 1-2 (⌖)",
+                "fr": "Leçon 1-2 (⌖)",
+                "ko": "레슨 1-2 (⌖)",
+                "es": "Lección 1-2 (⌖)",
+                "pt": "Lição 1-2 (⌖)",
+                "de": "Lektion 1-2 (⌖)",
+                "ru": "Урок 1-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step1-2-hint.png",
+              "initialState": "WWWWWWWfWWWWWRWWRWWdWWFWWwWWwWDDDWDWWWWWLWWLWWWWWBWWBW",
+              "moves": "CAM(65,36) C_F8(U M' U' M) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson3",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-3",
+                "ja": "レッスン 1-3",
+                "zh": "课程 1-3",
+                "fr": "Leçon 1-3",
+                "ko": "레슨 1-3",
+                "es": "Lección 1-3",
+                "pt": "Lição 1-3",
+                "de": "Lektion 1-3",
+                "ru": "Урок 1-3"
+              },
+              "initialState": "WWWWWWWWWWWWWRfWRWWWWWFWWwWWwWDDDWDWWWWWLWWLWWWWdBWWBW",
+              "moves": "CAM(65,36) R' U F2 R CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-3 (⌖)",
+                "ja": "レッスン 1-3 (⌖)",
+                "zh": "课程 1-3 (⌖)",
+                "fr": "Leçon 1-3 (⌖)",
+                "ko": "레슨 1-3 (⌖)",
+                "es": "Lección 1-3 (⌖)",
+                "pt": "Lição 1-3 (⌖)",
+                "de": "Lektion 1-3 (⌖)",
+                "ru": "Урок 1-3 (⌖)"
+              },
+              "initialState": "WWWWWWWWWWWWWRfWRWWWWWFWWwWWwWDDDWDWWWWWLWWLWWWWdBWWBW",
+              "moves": "CAM(65,36) R' U C_F5(F2) R CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson4",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-4",
+                "ja": "レッスン 1-4",
+                "zh": "课程 1-4",
+                "fr": "Leçon 1-4",
+                "ko": "레슨 1-4",
+                "es": "Lección 1-4",
+                "pt": "Lição 1-4",
+                "de": "Lektion 1-4",
+                "ru": "Урок 1-4"
+              },
+              "initialState": "WWWWWWWWWWWWWRdWRWWWWWFWWwWWwWDDDWDWWWWWLWWLWWWWfBWWBW",
+              "moves": "CAM(65,36) R' U U(F) M'(F) U'(F) M(F) R CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-lesson4-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 1-4 (⌖)",
+                "ja": "レッスン 1-4 (⌖)",
+                "zh": "课程 1-4 (⌖)",
+                "fr": "Leçon 1-4 (⌖)",
+                "ko": "레슨 1-4 (⌖)",
+                "es": "Lección 1-4 (⌖)",
+                "pt": "Lição 1-4 (⌖)",
+                "de": "Lektion 1-4 (⌖)",
+                "ru": "Урок 1-4 (⌖)"
+              },
+              "initialState": "WWWWWWWWWWWWWRdWRWWWWWFWWwWWwWDDDWDWWWWWLWWLWWWWfBWWBW",
+              "moves": "CAM(65,36) R' U C_F8(U M' U' M) R CAM(115,36)"
+            },
+            {
+              "id": "LBL-step1-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 1",
+                "ja": "卒業試験 1",
+                "zh": "毕业测试 1",
+                "fr": "Examen final 1",
+                "ko": "졸업 시험 1",
+                "es": "Examen final 1",
+                "pt": "Exame final 1",
+                "de": "Abschlussprüfung 1",
+                "ru": "Выпускной экзамен 1"
+              },
+              "initialState": "WWWWWWWrWWWWWRdWwWWdWWFWWwWWwWlDwWwWWWWfLWWdWWWWbBdWwW",
+              "goalState": "WWWWWWWWWWWWWRWWRWWWWWFWWFWWDWDDDWDWWWWWLWWLWWWWWBWWBW"
+            }
+          ]
+        },
+        {
+          "id": "LBL-step2-first-layer",
+          "title": {
+            "en": "Step 2. Complete first face",
+            "ja": "ステップ2. 完全一面",
+            "zh": "步骤2. 完整一面",
+            "fr": "Étape 2. Face complète",
+            "ko": "스텝 2. 완전한 한 면",
+            "es": "Paso 2. Cara completa",
+            "pt": "Passo 2. Face completa",
+            "de": "Schritt 2. Vollständige Seite",
+            "ru": "Шаг 2. Полная грань"
+          },
+          "description": {
+            "en": "Solve the corners of the 1st layer. A state where both the face color and its side colors are solved is called a \"complete face.\" You cannot solve all six faces if the face color is solved but the side colors are not.",
+            "ja": "一層目のコーナーを揃えます。一面の色と同時に、その側面の色も揃った状態のことを完全一面と呼びます。一面の色は揃っているが側面の色は揃っていない状態からは六面を揃えることはできません。",
+            "zh": "还原第一层的角块。一面颜色和其侧面颜色同时归位的状态称为“完整一面”。如果只有一面颜色归位而侧面颜色未归位，则无法还原六面。",
+            "fr": "Résolvez les coins de la 1ère couche. Un état où la couleur de la face et ses couleurs latérales sont toutes résolues s'appelle une « face complète ». Vous ne pouvez pas résoudre les six faces si la couleur de la face est bonne mais pas les côtés.",
+            "ko": "1층의 코너를 맞춥니다. 한 면의 색과 동시에 그 옆면의 색도 맞춰진 상태를 완전한 한 면이라고 합니다. 한 면의 색은 맞았지만 옆면의 색이 맞지 않은 상태에서는 육면을 맞출 수 없습니다.",
+            "es": "Resuelve las esquinas de la 1ª capa. Un estado en el que tanto el color de la cara como sus colores laterales están resueltos se llama \"cara completa\". No puedes resolver las seis caras si el color de la cara está bien pero los laterales no.",
+            "pt": "Resolva os cantos da 1ª camada. Um estado em que a cor da face e suas cores laterais estão resolvidas é chamado de \"face completa\". Você não pode resolver as seis faces se a cor da face estiver certa, mas as laterais não.",
+            "de": "Löse die Ecken der 1. Schicht. Ein Zustand, in dem sowohl die Flächenfarbe als auch die Seitenfarben stimmen, heißt „vollständige Seite“. Sind nur die Flächenfarbe, aber nicht die Seiten korrekt, lassen sich nicht alle sechs Seiten lösen.",
+            "ru": "Соберите углы первого слоя. Состояние, когда совпадают и цвет грани, и цвета её боковых сторон, называется «полной гранью». Если цвет грани совпадает, а боковые стороны — нет, собрать все шесть граней не получится."
+          },
+          "image": "tutorial/LBL/goals/step2-goal.png",
+          "items": [
+            {
+              "id": "LBL-step2-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-1",
+                "ja": "レッスン 2-1",
+                "zh": "课程 2-1",
+                "fr": "Leçon 2-1",
+                "ko": "레슨 2-1",
+                "es": "Lección 2-1",
+                "pt": "Lição 2-1",
+                "de": "Lektion 2-1",
+                "ru": "Урок 2-1"
+              },
+              "hint1": "tutorial/LBL/step2-1-hint.png",
+              "initialState": "WWWWWWWWfrWWWRWwRRWWdWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) U(F) R(F) U'(F) R'(F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-1 (⌖)",
+                "ja": "レッスン 2-1 (⌖)",
+                "zh": "课程 2-1 (⌖)",
+                "fr": "Leçon 2-1 (⌖)",
+                "ko": "레슨 2-1 (⌖)",
+                "es": "Lección 2-1 (⌖)",
+                "pt": "Lição 2-1 (⌖)",
+                "de": "Lektion 2-1 (⌖)",
+                "ru": "Урок 2-1 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step2-1-hint.png",
+              "initialState": "WWWWWWWWfrWWWRWwRRWWdWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) C_F3(U R U' R') CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson2",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-2",
+                "ja": "レッスン 2-2",
+                "zh": "课程 2-2",
+                "fr": "Leçon 2-2",
+                "ko": "레슨 2-2",
+                "es": "Lección 2-2",
+                "pt": "Lição 2-2",
+                "de": "Lektion 2-2",
+                "ru": "Урок 2-2"
+              },
+              "hint1": "tutorial/LBL/step2-2-hint.png",
+              "initialState": "WWWWWWWWrdWWWRWwRRWWfWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,54) U'(R) F'(R) U(R) F(R) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-2 (⌖)",
+                "ja": "レッスン 2-2 (⌖)",
+                "zh": "课程 2-2 (⌖)",
+                "fr": "Leçon 2-2 (⌖)",
+                "ko": "레슨 2-2 (⌖)",
+                "es": "Lección 2-2 (⌖)",
+                "pt": "Lição 2-2 (⌖)",
+                "de": "Lektion 2-2 (⌖)",
+                "ru": "Урок 2-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step2-2-hint.png",
+              "initialState": "WWWWWWWWrdWWWRWwRRWWfWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,54) C_R1(U' F' U F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson3",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-3",
+                "ja": "レッスン 2-3",
+                "zh": "课程 2-3",
+                "fr": "Leçon 2-3",
+                "ko": "레슨 2-3",
+                "es": "Lección 2-3",
+                "pt": "Lição 2-3",
+                "de": "Lektion 2-3",
+                "ru": "Урок 2-3"
+              },
+              "hint1": "tutorial/LBL/step2-1-x2-hint.png",
+              "initialState": "WWWWWWWWWWWWWRWfRRWWWWFWFFdDDrDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) U(F) R(F) U'(F) R'(F) U(F) R(F) U'(F) R'(F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-3 (⌖)",
+                "ja": "レッスン 2-3 (⌖)",
+                "zh": "课程 2-3 (⌖)",
+                "fr": "Leçon 2-3 (⌖)",
+                "ko": "레슨 2-3 (⌖)",
+                "es": "Lección 2-3 (⌖)",
+                "pt": "Lição 2-3 (⌖)",
+                "de": "Lektion 2-3 (⌖)",
+                "ru": "Урок 2-3 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step2-1-x2-hint.png",
+              "initialState": "WWWWWWWWWWWWWRWfRRWWWWFWFFdDDrDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) C_F3(U R U' R') C_F3(U R U' R') CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson4",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-4",
+                "ja": "レッスン 2-4",
+                "zh": "课程 2-4",
+                "fr": "Leçon 2-4",
+                "ko": "레슨 2-4",
+                "es": "Lección 2-4",
+                "pt": "Lição 2-4",
+                "de": "Lektion 2-4",
+                "ru": "Урок 2-4"
+              },
+              "hint1": "tutorial/LBL/step2-1-x3-hint2.png",
+              "initialState": "WWWWWWWWdfWWWRWwRRWWrWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) U(F) R(F) U'(F) R'(F) U(F) R(F) U'(F) R'(F) U(F) R(F) U'(F) R'(F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson4-C",
+              "type": "lesson",
+              "hint1": "tutorial/LBL/step2-1-x3-hint2.png",
+              "title": {
+                "en": "Lesson 2-4 (⌖)",
+                "ja": "レッスン 2-4 (⌖)",
+                "zh": "课程 2-4 (⌖)",
+                "fr": "Leçon 2-4 (⌖)",
+                "ko": "레슨 2-4 (⌖)",
+                "es": "Lección 2-4 (⌖)",
+                "pt": "Lição 2-4 (⌖)",
+                "de": "Lektion 2-4 (⌖)",
+                "ru": "Урок 2-4 (⌖)"
+              },
+              "initialState": "WWWWWWWWdfWWWRWwRRWWrWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) C_F3(U R U' R') C_F3(U R U' R') C_F3(U R U' R') CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson5",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-5",
+                "ja": "レッスン 2-5",
+                "zh": "课程 2-5",
+                "fr": "Leçon 2-5",
+                "ko": "레슨 2-5",
+                "es": "Lección 2-5",
+                "pt": "Lição 2-5",
+                "de": "Lektion 2-5",
+                "ru": "Урок 2-5"
+              },
+              "hint1": "tutorial/LBL/step2-5-hint.png",
+              "initialState": "WWWWWWWWdfWWWRWwRRWWrWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) F' L' U2' L F CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-lesson5-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 2-5 (⌖)",
+                "ja": "レッスン 2-5 (⌖)",
+                "zh": "课程 2-5 (⌖)",
+                "fr": "Leçon 2-5 (⌖)",
+                "ko": "레슨 2-5 (⌖)",
+                "es": "Lección 2-5 (⌖)",
+                "pt": "Lição 2-5 (⌖)",
+                "de": "Lektion 2-5 (⌖)",
+                "ru": "Урок 2-5 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step2-5-hint.png",
+              "initialState": "WWWWWWWWdfWWWRWwRRWWrWFWFFwDDwDDDDDDWWWWLWLLLWWWWBWBBB",
+              "moves": "CAM(65,36) C_U9(F' L' U2' L F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step2-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 2",
+                "ja": "卒業試験 2",
+                "zh": "毕业测试 2",
+                "fr": "Examen final 2",
+                "ko": "졸업 시험 2",
+                "es": "Examen final 2",
+                "pt": "Exame final 2",
+                "de": "Abschlussprüfung 2",
+                "ru": "Выпускной экзамен 2"
+              },
+              "initialState": "lWWWWWfWbdWWWRWwRwdWrWFWdFwfDwDDDwDwdWlWLWwLrWWbWBWwBw",
+              "goalState": "WWWWWWWWWWWWWRWRRRWWWWFWFFFDDDDDDDDDWWWWLWLLLWWWWBWBBB"
+            }
+          ]
+        },
+        {
+          "id": "LBL-step3-middle-layer",
+          "title": {
+            "en": "Step 3. Middle layer",
+            "ja": "ステップ3. 二層目",
+            "zh": "步骤3. 第二层",
+            "fr": "Étape 3. Couche du milieu",
+            "ko": "스텝 3. 2층",
+            "es": "Paso 3. Capa del medio",
+            "pt": "Passo 3. Camada do meio",
+            "de": "Schritt 3. Mittlere Schicht",
+            "ru": "Шаг 3. Средний слой"
+          },
+          "description": {
+            "en": "Solve the edges of the 2nd layer. By combining the 4-move sequence learned in Step 2, you can move edges from the last layer into their correct position in the 2nd layer. After this step, the bottom two of the three layers are solved.",
+            "ja": "二層目のエッジを揃えます。ステップ2で覚えた4手の手順を組み合わることで最終層にあるエッジを二層目の適切な位置に移動させることができます。この工程が終わることで、三層のキューブのうち下二層が揃います。",
+            "zh": "还原第二层的棱块。组合步骤2中学到的4步手法，可以把最后一层的棱块移动到第二层的正确位置。完成此步骤后，三层魔方中的下两层即已还原。",
+            "fr": "Résolvez les arêtes de la 2ème couche. En combinant la séquence de 4 mouvements apprise à l'étape 2, vous pouvez déplacer les arêtes de la dernière couche vers leur position correcte en 2ème couche. Après cette étape, les deux couches du bas sont résolues.",
+            "ko": "2층의 엣지를 맞춥니다. 스텝 2에서 배운 4수 순서를 조합하면 마지막 층에 있는 엣지를 2층의 적절한 위치로 이동시킬 수 있습니다. 이 과정이 끝나면 3층 큐브 중 아래 2층이 맞춰집니다.",
+            "es": "Resuelve las aristas de la 2ª capa. Combinando la secuencia de 4 movimientos aprendida en el Paso 2, puedes mover las aristas de la última capa a su posición correcta en la 2ª capa. Tras este paso, las dos capas inferiores están resueltas.",
+            "pt": "Resolva as arestas da 2ª camada. Combinando a sequência de 4 movimentos aprendida no Passo 2, você pode mover as arestas da última camada para a posição correta na 2ª camada. Após este passo, as duas camadas inferiores estão resolvidas.",
+            "de": "Löse die Kanten der 2. Schicht. Durch Kombination der in Schritt 2 gelernten 4-Zug-Folge kannst du Kanten aus der letzten Schicht an die richtige Position der 2. Schicht bewegen. Danach sind die unteren zwei Schichten gelöst.",
+            "ru": "Соберите рёбра второго слоя. Комбинируя последовательность из 4 ходов, изученную в шаге 2, вы можете переместить рёбра из последнего слоя на нужные позиции во втором слое. После этого шага нижние два из трёх слоёв собраны."
+          },
+          "image": "tutorial/LBL/goals/step3-goal.png",
+          "items": [
+            {
+              "id": "LBL-step3-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 3-1",
+                "ja": "レッスン 3-1",
+                "zh": "课程 3-1",
+                "fr": "Leçon 3-1",
+                "ko": "레슨 3-1",
+                "es": "Lección 3-1",
+                "pt": "Lição 3-1",
+                "de": "Lektion 3-1",
+                "ru": "Урок 3-1"
+              },
+              "hint1": "tutorial/LBL/step3-1-hint.png",
+              "initialState": "WWWWWWWrWWWWwRRRRRWfWFFwFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) U(F) R(F) U'(F) R'(F) CAM(65,54) U'(R) F'(R) U(R) F(R) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step3-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 3-1 (⌖)",
+                "ja": "レッスン 3-1 (⌖)",
+                "zh": "课程 3-1 (⌖)",
+                "fr": "Leçon 3-1 (⌖)",
+                "ko": "레슨 3-1 (⌖)",
+                "es": "Lección 3-1 (⌖)",
+                "pt": "Lição 3-1 (⌖)",
+                "de": "Lektion 3-1 (⌖)",
+                "ru": "Урок 3-1 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step3-1-hint.png",
+              "initialState": "WWWWWWWrWWWWwRRRRRWfWFFwFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) C_F3(U R U' R') CAM(65,54) C_R1(U' F' U F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step3-lesson2",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 3-2",
+                "ja": "レッスン 3-2",
+                "zh": "课程 3-2",
+                "fr": "Leçon 3-2",
+                "ko": "레슨 3-2",
+                "es": "Lección 3-2",
+                "pt": "Lição 3-2",
+                "de": "Lektion 3-2",
+                "ru": "Урок 3-2"
+              },
+              "hint1": "tutorial/LBL/step3-2-hint.png",
+              "initialState": "WWWWWfWWWWrWwRRRRRWWWFFwFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,54) U'(R) F'(R) U(R) F(R) CAM(65,36) U(F) R(F) U'(F) R'(F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step3-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 3-2 (⌖)",
+                "ja": "レッスン 3-2 (⌖)",
+                "zh": "课程 3-2 (⌖)",
+                "fr": "Leçon 3-2 (⌖)",
+                "ko": "레슨 3-2 (⌖)",
+                "es": "Lección 3-2 (⌖)",
+                "pt": "Lição 3-2 (⌖)",
+                "de": "Lektion 3-2 (⌖)",
+                "ru": "Урок 3-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step3-2-hint.png",
+              "initialState": "WWWWWfWWWWrWwRRRRRWWWFFwFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,54) C_R1(U' F' U F) CAM(65,36) C_F3(U R U' R') CAM(115,36)"
+            },
+            {
+              "id": "LBL-step3-lesson3",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 3-3",
+                "ja": "レッスン 3-3",
+                "zh": "课程 3-3",
+                "fr": "Leçon 3-3",
+                "ko": "레슨 3-3",
+                "es": "Lección 3-3",
+                "pt": "Lição 3-3",
+                "de": "Lektion 3-3",
+                "ru": "Урок 3-3"
+              },
+              "initialState": "WWWWWWWwWWWWfRRRRRWwWFFrFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) U(F) R(F) U'(F) R'(F) CAM(65,54) U'(R) F'(R) U(R) F(R) U2 CAM(65,36) U(F) R(F) U'(F) R'(F) CAM(65,54) U'(R) F'(R) U(R) F(R) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step3-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 3-3 (⌖)",
+                "ja": "レッスン 3-3 (⌖)",
+                "zh": "课程 3-3 (⌖)",
+                "fr": "Leçon 3-3 (⌖)",
+                "ko": "레슨 3-3 (⌖)",
+                "es": "Lección 3-3 (⌖)",
+                "pt": "Lição 3-3 (⌖)",
+                "de": "Lektion 3-3 (⌖)",
+                "ru": "Урок 3-3 (⌖)"
+              },
+              "initialState": "WWWWWWWwWWWWfRRRRRWwWFFrFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) C_F3(U R U' R') CAM(65,54) C_R1(U' F' U F) C_U5(U2) CAM(65,36) C_F3(U R U' R') CAM(65,54) C_R1(U' F' U F) CAM(115,36)"
+            },
+            {
+              "id": "LBL-step3-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 3",
+                "ja": "卒業試験 3",
+                "zh": "毕业测试 3",
+                "fr": "Examen final 3",
+                "ko": "졸업 시험 3",
+                "es": "Examen final 3",
+                "pt": "Exame final 3",
+                "de": "Abschlussprüfung 3",
+                "ru": "Выпускной экзамен 3"
+              },
+              "initialState": "WlWWWbWWWWrWfRwRRRWWWwFrFFFDDDDDDDDDWWWlLwLLLWbWwBfBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "LBL-step4-last-layer-EO",
+          "title": {
+            "en": "Step 4. Last layer edge orientation",
+            "ja": "ステップ4. 最終層のエッジの向き",
+            "zh": "步骤4. 最后一层棱块方向",
+            "fr": "Étape 4. Orientation des arêtes",
+            "ko": "스텝 4. 마지막 층 엣지 방향",
+            "es": "Paso 4. Orientación de aristas",
+            "pt": "Passo 4. Orientação das arestas",
+            "de": "Schritt 4. Kantenausrichtung",
+            "ru": "Шаг 4. Ориентация рёбер"
+          },
+          "description": {
+            "en": "Form a cross on the top face of the last layer. The corners and sides do not need to be solved yet. From the state at the end of Step 3, this can always be done by repeating a sequence of at most 6 moves.",
+            "ja": "最終層の上面に十字をつくります。その際、コーナーや側面が揃っている必要はありません。ステップ3の終了時であれば、どのような状態からでも最短6手の手順を繰り返すことで処理可能です。",
+            "zh": "在最后一层的上面做出十字。此时角块和侧面不必归位。只要是步骤3结束时的状态，无论何种情况都能通过最多重复6步手法来完成。",
+            "fr": "Formez une croix sur la face supérieure de la dernière couche. Les coins et les côtés n'ont pas encore besoin d'être résolus. Depuis l'état de fin de l'étape 3, cela se fait toujours en répétant une séquence d'au plus 6 mouvements.",
+            "ko": "마지막 층 윗면에 십자를 만듭니다. 이때 코너나 옆면이 맞춰져 있을 필요는 없습니다. 스텝 3이 끝난 상태라면 어떤 상태에서든 최대 6수의 순서를 반복하면 처리할 수 있습니다.",
+            "es": "Forma una cruz en la cara superior de la última capa. Las esquinas y los lados no necesitan estar resueltos todavía. Desde el estado al final del Paso 3, esto siempre se puede hacer repitiendo una secuencia de máximo 6 movimientos.",
+            "pt": "Forme uma cruz na face superior da última camada. Os cantos e as laterais não precisam estar resolvidos ainda. A partir do estado ao final do Passo 3, isso sempre pode ser feito repetindo uma sequência de no máximo 6 movimentos.",
+            "de": "Bilde ein Kreuz auf der Oberseite der letzten Schicht. Ecken und Seiten müssen noch nicht stimmen. Vom Zustand nach Schritt 3 aus lässt sich dies immer durch Wiederholen einer Folge von höchstens 6 Zügen erreichen.",
+            "ru": "Сформируйте крест на верхней грани последнего слоя. Углы и боковые стороны пока не обязательно должны быть собраны. Из состояния после шага 3 это всегда можно сделать, повторяя последовательность максимум из 6 ходов."
+          },
+          "image": "tutorial/LBL/goals/step4-goal.png",
+          "items": [
+            {
+              "id": "LBL-step4-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-1",
+                "ja": "レッスン 4-1",
+                "zh": "课程 4-1",
+                "fr": "Leçon 4-1",
+                "ko": "레슨 4-1",
+                "es": "Lección 4-1",
+                "pt": "Lição 4-1",
+                "de": "Lektion 4-1",
+                "ru": "Урок 4-1"
+              },
+              "hint1": "tutorial/LBL/step4-1-hint.png",
+              "hint2": "tutorial/LBL/step4-1c-hint.png",
+              "initialState": "WwWwUwWwWWuWRRRRRRWuWFFFFFFDDDDDDDDDWuWLLLLLLWuWBBBBBB",
+              "moves": "CAM(65,36) F' U'(F) L'(F) U(F) L(F) F CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-1 (⌖)",
+                "ja": "レッスン 4-1 (⌖)",
+                "zh": "课程 4-1 (⌖)",
+                "fr": "Leçon 4-1 (⌖)",
+                "ko": "레슨 4-1 (⌖)",
+                "es": "Lección 4-1 (⌖)",
+                "pt": "Lição 4-1 (⌖)",
+                "de": "Lektion 4-1 (⌖)",
+                "ru": "Урок 4-1 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step4-1c-hint.png",
+              "hint2": "tutorial/LBL/step4-1-hint.png",
+              "initialState": "WwWwUwWwWWuWRRRRRRWuWFFFFFFDDDDDDDDDWuWLLLLLLWuWBBBBBB",
+              "moves": "CAM(65,36) C_F2(F' U' L' U L F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-lesson2",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-2",
+                "ja": "レッスン 4-2",
+                "zh": "课程 4-2",
+                "fr": "Leçon 4-2",
+                "ko": "레슨 4-2",
+                "es": "Lección 4-2",
+                "pt": "Lição 4-2",
+                "de": "Lektion 4-2",
+                "ru": "Урок 4-2"
+              },
+              "hint1": "tutorial/LBL/step4-2-hint.png",
+              "hint2": "tutorial/LBL/step4-2c-hint.png",
+              "initialState": "WwWUUUWwWWWWRRRRRRWuWFFFFFFDDDDDDDDDWWWLLLLLLWuWBBBBBB",
+              "moves": "CAM(65,36) F' U'(F) L'(F) U(F) L(F) F CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-2 (⌖)",
+                "ja": "レッスン 4-2 (⌖)",
+                "zh": "课程 4-2 (⌖)",
+                "fr": "Leçon 4-2 (⌖)",
+                "ko": "레슨 4-2 (⌖)",
+                "es": "Lección 4-2 (⌖)",
+                "pt": "Lição 4-2 (⌖)",
+                "de": "Lektion 4-2 (⌖)",
+                "ru": "Урок 4-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step4-2c-hint.png",
+              "hint2": "tutorial/LBL/step4-2-hint.png",
+              "initialState": "WwWUUUWwWWWWRRRRRRWuWFFFFFFDDDDDDDDDWWWLLLLLLWuWBBBBBB",
+              "moves": "CAM(65,36) C_F2(F' U' L' U L F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-lesson3",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-3",
+                "ja": "レッスン 4-3",
+                "zh": "课程 4-3",
+                "fr": "Leçon 4-3",
+                "ko": "레슨 4-3",
+                "es": "Lección 4-3",
+                "pt": "Lição 4-3",
+                "de": "Lektion 4-3",
+                "ru": "Урок 4-3"
+              },
+              "hint1": "tutorial/LBL/step4-3-hint.png",
+              "hint2": "tutorial/LBL/step4-3c-hint.png",
+              "initialState": "WUWwUUWwWWWWRRRRRRWuWFFFFFFDDDDDDDDDWuWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) F' U'(F) L'(F) U(F) L(F) F CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-3 (⌖)",
+                "ja": "レッスン 4-3 (⌖)",
+                "zh": "课程 4-3 (⌖)",
+                "fr": "Leçon 4-3 (⌖)",
+                "ko": "레슨 4-3 (⌖)",
+                "es": "Lección 4-3 (⌖)",
+                "pt": "Lição 4-3 (⌖)",
+                "de": "Lektion 4-3 (⌖)",
+                "ru": "Урок 4-3 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step4-3c-hint.png",
+              "hint2": "tutorial/LBL/step4-3-hint.png",
+              "initialState": "WUWwUUWwWWWWRRRRRRWuWFFFFFFDDDDDDDDDWuWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) C_F2(F' U' L' U L F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-lesson4-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 4-4 (⌖)",
+                "ja": "レッスン 4-4 (⌖)",
+                "zh": "课程 4-4 (⌖)",
+                "fr": "Leçon 4-4 (⌖)",
+                "ko": "레슨 4-4 (⌖)",
+                "es": "Lección 4-4 (⌖)",
+                "pt": "Lição 4-4 (⌖)",
+                "de": "Lektion 4-4 (⌖)",
+                "ru": "Урок 4-4 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step4-4c-hint.png",
+              "initialState": "WwWwUwWwWWuWRRRRRRWuWFFFFFFDDDDDDDDDWuWLLLLLLWuWBBBBBB",
+              "moves": "CAM(65,36) C_F2(F' U' L' U L F) CAM(65,126) C_R2(R' U' F' U F R) C_R2(R' U' F' U F R) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step4-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 4",
+                "ja": "卒業試験 4",
+                "zh": "毕业测试 4",
+                "fr": "Examen final 4",
+                "ko": "졸업 시험 4",
+                "es": "Examen final 4",
+                "pt": "Exame final 4",
+                "de": "Abschlussprüfung 4",
+                "ru": "Выпускной экзамен 4"
+              },
+              "initialState": "WwWwUwWwWWuWRRRRRRWuWFFFFFFDDDDDDDDDWuWLLLLLLWuWBBBBBB",
+              "goalState": "WUWUUUWUWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "LBL-step5-last-layer-CO",
+          "title": {
+            "en": "Step 5. Last layer corner orientation",
+            "ja": "ステップ5. 最終層のコーナーの向き",
+            "zh": "步骤5. 最后一层角块方向",
+            "fr": "Étape 5. Orientation des coins",
+            "ko": "스텝 5. 마지막 층 코너 방향",
+            "es": "Paso 5. Orientación de esquinas",
+            "pt": "Passo 5. Orientação dos cantos",
+            "de": "Schritt 5. Eckenausrichtung",
+            "ru": "Шаг 5. Ориентация углов"
+          },
+          "description": {
+            "en": "Orient the corners of the last layer. This can be done by repeating a 7-move sequence that rotates three corners.",
+            "ja": "最終層のコーナーの向きを揃えます。3つのコーナーを回転させる最短7手の手順を繰り返すことで処理可能です。",
+            "zh": "调整最后一层角块的方向。通过重复旋转3个角块的最多7步手法即可完成。",
+            "fr": "Orientez les coins de la dernière couche. Cela se fait en répétant une séquence de 7 mouvements qui fait pivoter trois coins.",
+            "ko": "마지막 층 코너의 방향을 맞춥니다. 3개의 코너를 회전시키는 최대 7수의 순서를 반복하면 처리할 수 있습니다.",
+            "es": "Orienta las esquinas de la última capa. Esto se puede hacer repitiendo una secuencia de 7 movimientos que rota tres esquinas.",
+            "pt": "Oriente os cantos da última camada. Isso pode ser feito repetindo uma sequência de 7 movimentos que gira três cantos.",
+            "de": "Richte die Ecken der letzten Schicht aus. Dies gelingt durch Wiederholen einer 7-Zug-Folge, die drei Ecken dreht.",
+            "ru": "Сориентируйте углы последнего слоя. Это можно сделать, повторяя последовательность из 7 ходов, которая поворачивает три угла."
+          },
+          "image": "tutorial/LBL/goals/step5-goal.png",
+          "items": [
+            {
+              "id": "LBL-step5-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 5-1",
+                "ja": "レッスン 5-1",
+                "zh": "课程 5-1",
+                "fr": "Leçon 5-1",
+                "ko": "레슨 5-1",
+                "es": "Lección 5-1",
+                "pt": "Lição 5-1",
+                "de": "Lektion 5-1",
+                "ru": "Урок 5-1"
+              },
+              "hint1": "tutorial/LBL/step5-1-hint.png",
+              "hint2": "tutorial/LBL/step5-1c-hint.png",
+              "initialState": "WUUUUUWUWUWWRRRRRRUWWFFFFFFDDDDDDDDDUWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) R(F) U2'(F) R'(F) U'(F) R(F) U'(F) R'(F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step5-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 5-1 (⌖)",
+                "ja": "レッスン 5-1 (⌖)",
+                "zh": "课程 5-1 (⌖)",
+                "fr": "Leçon 5-1 (⌖)",
+                "ko": "레슨 5-1 (⌖)",
+                "es": "Lección 5-1 (⌖)",
+                "pt": "Lição 5-1 (⌖)",
+                "de": "Lektion 5-1 (⌖)",
+                "ru": "Урок 5-1 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step5-1c-hint.png",
+              "hint2": "tutorial/LBL/step5-1-hint.png",
+              "initialState": "WUUUUUWUWUWWRRRRRRUWWFFFFFFDDDDDDDDDUWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) C_U8(R U2' R' U' R U' R') CAM(65,36)"
+            },
+            {
+              "id": "LBL-step5-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 5-2 (⌖)",
+                "ja": "レッスン 5-2 (⌖)",
+                "zh": "课程 5-2 (⌖)",
+                "fr": "Leçon 5-2 (⌖)",
+                "ko": "레슨 5-2 (⌖)",
+                "es": "Lección 5-2 (⌖)",
+                "pt": "Lição 5-2 (⌖)",
+                "de": "Lektion 5-2 (⌖)",
+                "ru": "Урок 5-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step5-2c-hint.png",
+              "initialState": "WUWUUUUUUWWURRRRRRWWWFFFFFFDDDDDDDDDUWWLLLLLLWWWBBBBBB",
+              "moves": "CAM(65,36) C_U8(R U2' R' U' R U' R') CAM(65,-54) C_U4(F U2' F' U' F U' F') CAM(65,126) C_U6(B U2' B' U' B U' B') CAM(65,36)"
+            },
+            {
+              "id": "LBL-step5-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 5-3 (⌖)",
+                "ja": "レッスン 5-3 (⌖)",
+                "zh": "课程 5-3 (⌖)",
+                "fr": "Leçon 5-3 (⌖)",
+                "ko": "레슨 5-3 (⌖)",
+                "es": "Lección 5-3 (⌖)",
+                "pt": "Lição 5-3 (⌖)",
+                "de": "Lektion 5-3 (⌖)",
+                "ru": "Урок 5-3 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step5-3c-hint.png",
+              "initialState": "WUWUUUUUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLUWUBBBBBB",
+              "moves": "CAM(65,36) C_U8(R U2' R' U' R U' R') CAM(65,-54) C_U4(F U2' F' U' F U' F') CAM(65,36) C_U8(R U2' R' U' R U' R') CAM(65,36)"
+            },
+            {
+              "id": "LBL-step5-lesson4-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 5-4 (⌖)",
+                "ja": "レッスン 5-4 (⌖)",
+                "zh": "课程 5-4 (⌖)",
+                "fr": "Leçon 5-4 (⌖)",
+                "ko": "레슨 5-4 (⌖)",
+                "es": "Lección 5-4 (⌖)",
+                "pt": "Lição 5-4 (⌖)",
+                "de": "Lektion 5-4 (⌖)",
+                "ru": "Урок 5-4 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step5-4c-hint.png",
+              "initialState": "UUWUUUWUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWULLLLLLUWWBBBBBB",
+              "moves": "CAM(65,36) C_U8(R U2' R' U' R U' R') C_U8(R U2' R' U' R U' R') C_U8(R U2' R' U' R U' R') CAM(65,36)"
+            },
+            {
+              "id": "LBL-step5-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 5-1",
+                "ja": "卒業試験 5-1",
+                "zh": "毕业测试 5-1",
+                "fr": "Examen final 5-1",
+                "ko": "졸업 시험 5-1",
+                "es": "Examen final 5-1",
+                "pt": "Exame final 5-1",
+                "de": "Abschlussprüfung 5-1",
+                "ru": "Выпускной экзамен 5-1"
+              },
+              "initialState": "WUWUUUUUUWWURRRRRRWWWFFFFFFDDDDDDDDDUWWLLLLLLWWWBBBBBB",
+              "goalState": "UUUUUUUUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            },
+            {
+              "id": "LBL-step5-exam2",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 5-2",
+                "ja": "卒業試験 5-2",
+                "zh": "毕业测试 5-2",
+                "fr": "Examen final 5-2",
+                "ko": "졸업 시험 5-2",
+                "es": "Examen final 5-2",
+                "pt": "Exame final 5-2",
+                "de": "Abschlussprüfung 5-2",
+                "ru": "Выпускной экзамен 5-2"
+              },
+              "initialState": "WUWUUUUUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLUWUBBBBBB",
+              "goalState": "UUUUUUUUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            },
+            {
+              "id": "LBL-step5-exam3",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 5-3",
+                "ja": "卒業試験 5-3",
+                "zh": "毕业测试 5-3",
+                "fr": "Examen final 5-3",
+                "ko": "졸업 시험 5-3",
+                "es": "Examen final 5-3",
+                "pt": "Exame final 5-3",
+                "de": "Abschlussprüfung 5-3",
+                "ru": "Выпускной экзамен 5-3"
+              },
+              "initialState": "UUWUUUWUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWULLLLLLUWWBBBBBB",
+              "goalState": "UUUUUUUUUWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "LBL-step6-last-layer-CP",
+          "title": {
+            "en": "Step 6. Last layer corner position",
+            "ja": "ステップ6. 最終層のコーナーの位置",
+            "zh": "步骤6. 最后一层角块位置",
+            "fr": "Étape 6. Position des coins",
+            "ko": "스텝 6. 마지막 층 코너 위치",
+            "es": "Paso 6. Posición de esquinas",
+            "pt": "Passo 6. Posição dos cantos",
+            "de": "Schritt 6. Eckenposition",
+            "ru": "Шаг 6. Позиция углов"
+          },
+          "description": {
+            "en": "Position the corners of the last layer correctly. This can be done by repeating a 9-move sequence that slides three corners.",
+            "ja": "最終層のコーナーの位置を揃えます。3つのコーナーをスライド移動させる最短9手の手順を繰り返すことで処理可能です。",
+            "zh": "把最后一层角块调整到正确位置。通过重复移动3个角块位置的最多9步手法即可完成。",
+            "fr": "Positionnez correctement les coins de la dernière couche. Cela se fait en répétant une séquence de 9 mouvements qui permute trois coins.",
+            "ko": "마지막 층 코너의 위치를 맞춥니다. 3개의 코너를 슬라이드 이동시키는 최대 9수의 순서를 반복하면 처리할 수 있습니다.",
+            "es": "Coloca correctamente las esquinas de la última capa. Esto se puede hacer repitiendo una secuencia de 9 movimientos que desliza tres esquinas.",
+            "pt": "Posicione corretamente os cantos da última camada. Isso pode ser feito repetindo uma sequência de 9 movimentos que desliza três cantos.",
+            "de": "Positioniere die Ecken der letzten Schicht richtig. Dies gelingt durch Wiederholen einer 9-Zug-Folge, die drei Ecken verschiebt.",
+            "ru": "Расставьте углы последнего слоя по местам. Это можно сделать, повторяя последовательность из 9 ходов, которая переставляет три угла."
+          },
+          "image": "tutorial/LBL/goals/step6-goal.png",
+          "items": [
+            {
+              "id": "LBL-step6-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 6-1",
+                "ja": "レッスン 6-1",
+                "zh": "课程 6-1",
+                "fr": "Leçon 6-1",
+                "ko": "레슨 6-1",
+                "es": "Lección 6-1",
+                "pt": "Lição 6-1",
+                "de": "Lektion 6-1",
+                "ru": "Урок 6-1"
+              },
+              "hint1": "tutorial/LBL/step6-1-hint.png",
+              "hint2": "tutorial/LBL/step6-1c-hint.png",
+              "initialState": "UUuUUUuUubWlRRRRRRrWrFFFFFFDDDDDDDDDLWfLLLLLLfWBBBBBBB",
+              "moves": "CAM(65,36) x'(F) CAM(65,36) R(F) U'(F) R(F) D2(F) R'(F) U(F) R(F) D2(F) R2'(F) x(F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step6-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 6-1 (⌖)",
+                "ja": "レッスン 6-1 (⌖)",
+                "zh": "课程 6-1 (⌖)",
+                "fr": "Leçon 6-1 (⌖)",
+                "ko": "레슨 6-1 (⌖)",
+                "es": "Lección 6-1 (⌖)",
+                "pt": "Lição 6-1 (⌖)",
+                "de": "Lektion 6-1 (⌖)",
+                "ru": "Урок 6-1 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step6-1c-hint.png",
+              "hint2": "tutorial/LBL/step6-1-hint.png",
+              "initialState": "UUuUUUuUubWlRRRRRRrWrFFFFFFDDDDDDDDDLWfLLLLLLfWBBBBBBB",
+              "moves": "CAM(65,36) C_F4(R B' R F2 R' B R F2 R2) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step6-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 6-2 (⌖)",
+                "ja": "レッスン 6-2 (⌖)",
+                "zh": "课程 6-2 (⌖)",
+                "fr": "Leçon 6-2 (⌖)",
+                "ko": "레슨 6-2 (⌖)",
+                "es": "Lección 6-2 (⌖)",
+                "pt": "Lição 6-2 (⌖)",
+                "de": "Lektion 6-2 (⌖)",
+                "ru": "Урок 6-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step6-2c-hint.png",
+              "initialState": "UUuUUUuUufWrRRRRRRlWlFFFFFFDDDDDDDDDRWbLLLLLLbWFBBBBBB",
+              "moves": "CAM(65,36) C_F4(R B' R F2 R' B R F2 R2) U2 CAM(65,36)"
+            },
+            {
+              "id": "LBL-step6-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 6-3 (⌖)",
+                "ja": "レッスン 6-3 (⌖)",
+                "zh": "课程 6-3 (⌖)",
+                "fr": "Leçon 6-3 (⌖)",
+                "ko": "레슨 6-3 (⌖)",
+                "es": "Lección 6-3 (⌖)",
+                "pt": "Lição 6-3 (⌖)",
+                "de": "Lektion 6-3 (⌖)",
+                "ru": "Урок 6-3 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step6-3c-hint.png",
+              "initialState": "UUUUUUUUULWRRRRRRRFWBFFFFFFDDDDDDDDDRWLLLLLLLBWFBBBBBB",
+              "moves": "CAM(65,36) C_R4(B L' B R2 B' L B R2 B2) C_F4(R B' R F2 R' B R F2 R2) U CAM(65,36)"
+            },
+            {
+              "id": "LBL-step6-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 6-1",
+                "ja": "卒業試験 6-1",
+                "zh": "毕业测试 6-1",
+                "fr": "Examen final 6-1",
+                "ko": "졸업 시험 6-1",
+                "es": "Examen final 6-1",
+                "pt": "Exame final 6-1",
+                "de": "Abschlussprüfung 6-1",
+                "ru": "Выпускной экзамен 6-1"
+              },
+              "initialState": "UUuUUUuUubWlRRRRRRrWrFFFFFFDDDDDDDDDLWfLLLLLLfWBBBBBBB",
+              "goalState": "UUUUUUUUURWRRRRRRRFWFFFFFFFDDDDDDDDDLWLLLLLLLBWBBBBBBB"
+            },
+            {
+              "id": "LBL-step6-exam2",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 6-2",
+                "ja": "卒業試験 6-2",
+                "zh": "毕业测试 6-2",
+                "fr": "Examen final 6-2",
+                "ko": "졸업 시험 6-2",
+                "es": "Examen final 6-2",
+                "pt": "Exame final 6-2",
+                "de": "Abschlussprüfung 6-2",
+                "ru": "Выпускной экзамен 6-2"
+              },
+              "initialState": "UUuUUUuUufWrRRRRRRlWlFFFFFFDDDDDDDDDRWbLLLLLLbWFBBBBBB",
+              "goalState": "UUUUUUUUURWRRRRRRRFWFFFFFFFDDDDDDDDDLWLLLLLLLBWBBBBBBB"
+            },
+            {
+              "id": "LBL-step6-exam3",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 6-3",
+                "ja": "卒業試験 6-3",
+                "zh": "毕业测试 6-3",
+                "fr": "Examen final 6-3",
+                "ko": "졸업 시험 6-3",
+                "es": "Examen final 6-3",
+                "pt": "Exame final 6-3",
+                "de": "Abschlussprüfung 6-3",
+                "ru": "Выпускной экзамен 6-3"
+              },
+              "initialState": "UUUUUUUUULWRRRRRRRFWBFFFFFFDDDDDDDDDRWLLLLLLLBWFBBBBBB",
+              "goalState": "UUUUUUUUURWRRRRRRRFWFFFFFFFDDDDDDDDDLWLLLLLLLBWBBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "LBL-step7-last-layer-EP",
+          "title": {
+            "en": "Step 7. Last layer edge position",
+            "ja": "ステップ7. 最終層のエッジの位置",
+            "zh": "步骤7. 最后一层棱块位置",
+            "fr": "Étape 7. Position des arêtes",
+            "ko": "스텝 7. 마지막 층 엣지 위치",
+            "es": "Paso 7. Posición de aristas",
+            "pt": "Passo 7. Posição das arestas",
+            "de": "Schritt 7. Kantenposition",
+            "ru": "Шаг 7. Позиция рёбер"
+          },
+          "description": {
+            "en": "Position the edges of the last layer correctly. This can be done by repeating an 11-move sequence that slides three edges. Completing Steps 1 through 7 solves all six faces.",
+            "ja": "最終層のエッジの位置を揃えます。3つのエッジをスライド移動させる最短11手の手順を繰り返すことで処理可能です。ステップ1からステップ7を実行することで六面揃えることができます。",
+            "zh": "把最后一层棱块调整到正确位置。通过重复移动3个棱块位置的最多11步手法即可完成。完成步骤1到步骤7后即可还原六面。",
+            "fr": "Positionnez correctement les arêtes de la dernière couche. Cela se fait en répétant une séquence de 11 mouvements qui permute trois arêtes. En terminant les étapes 1 à 7, les six faces sont résolues.",
+            "ko": "마지막 층 엣지의 위치를 맞춥니다. 3개의 엣지를 슬라이드 이동시키는 최대 11수의 순서를 반복하면 처리할 수 있습니다. 스텝 1부터 스텝 7까지 실행하면 육면을 맞출 수 있습니다.",
+            "es": "Coloca correctamente las aristas de la última capa. Esto se puede hacer repitiendo una secuencia de 11 movimientos que desliza tres aristas. Completando los pasos 1 al 7 se resuelven las seis caras.",
+            "pt": "Posicione corretamente as arestas da última camada. Isso pode ser feito repetindo uma sequência de 11 movimentos que desliza três arestas. Completar os passos 1 a 7 resolve as seis faces.",
+            "de": "Positioniere die Kanten der letzten Schicht richtig. Dies gelingt durch Wiederholen einer 11-Zug-Folge, die drei Kanten verschiebt. Nach Abschluss der Schritte 1 bis 7 sind alle sechs Seiten gelöst.",
+            "ru": "Расставьте рёбра последнего слоя по местам. Это можно сделать, повторяя последовательность из 11 ходов, которая переставляет три ребра. Выполнив шаги с 1 по 7, вы соберёте все шесть граней."
+          },
+          "image": "tutorial/LBL/goals/step7-goal.png",
+          "items": [
+            {
+              "id": "LBL-step7-lesson1",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 7-1",
+                "ja": "レッスン 7-1",
+                "zh": "课程 7-1",
+                "fr": "Leçon 7-1",
+                "ko": "레슨 7-1",
+                "es": "Lección 7-1",
+                "pt": "Lição 7-1",
+                "de": "Lektion 7-1",
+                "ru": "Урок 7-1"
+              },
+              "hint1": "tutorial/LBL/step7-1-hint.png",
+              "hint2": "tutorial/LBL/step7-1c-hint.png",
+              "initialState": "UUUuUuUuURfRRRRRRRFlFFFFFFFDDDDDDDDDLrLLLLLLLBBBBBBBBB",
+              "moves": "CAM(65,36) R2(F) U(F) R(F) U(F) R'(F) U'(F) R'(F) U'(F) R'(F) U(F) R'(F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step7-lesson1-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 7-1 (⌖)",
+                "ja": "レッスン 7-1 (⌖)",
+                "zh": "课程 7-1 (⌖)",
+                "fr": "Leçon 7-1 (⌖)",
+                "ko": "레슨 7-1 (⌖)",
+                "es": "Lección 7-1 (⌖)",
+                "pt": "Lição 7-1 (⌖)",
+                "de": "Lektion 7-1 (⌖)",
+                "ru": "Урок 7-1 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step7-1c-hint.png",
+              "hint2": "tutorial/LBL/step7-1-hint.png",
+              "initialState": "UUUuUuUuURfRRRRRRRFlFFFFFFFDDDDDDDDDLrLLLLLLLBBBBBBBBB",
+              "moves": "CAM(65,36) C_F9(R2 U R U R' U' R' U' R' U R') CAM(65,36)"
+            },
+            {
+              "id": "LBL-step7-lesson2",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 7-2",
+                "ja": "レッスン 7-2",
+                "zh": "课程 7-2",
+                "fr": "Leçon 7-2",
+                "ko": "레슨 7-2",
+                "es": "Lección 7-2",
+                "pt": "Lição 7-2",
+                "de": "Lektion 7-2",
+                "ru": "Урок 7-2"
+              },
+              "hint1": "tutorial/LBL/step7-2-hint.png",
+              "hint2": "tutorial/LBL/step7-2c-hint.png",
+              "initialState": "UUUuUuUuURlRRRRRRRFrFFFFFFFDDDDDDDDDLfLLLLLLLBBBBBBBBB",
+              "moves": "CAM(65,36) L2(F) U'(F) L'(F) U'(F) L(F) U(F) L(F) U(F) L(F) U'(F) L(F) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step7-lesson2-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 7-2 (⌖)",
+                "ja": "レッスン 7-2 (⌖)",
+                "zh": "课程 7-2 (⌖)",
+                "fr": "Leçon 7-2 (⌖)",
+                "ko": "레슨 7-2 (⌖)",
+                "es": "Lección 7-2 (⌖)",
+                "pt": "Lição 7-2 (⌖)",
+                "de": "Lektion 7-2 (⌖)",
+                "ru": "Урок 7-2 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step7-2c-hint.png",
+              "hint2": "tutorial/LBL/step7-2-hint.png",
+              "initialState": "UUUuUuUuURlRRRRRRRFrFFFFFFFDDDDDDDDDLfLLLLLLLBBBBBBBBB",
+              "moves": "CAM(65,36) C_F7(L2 U' L' U' L U L U L U' L) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step7-lesson3-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 7-3 (⌖)",
+                "ja": "レッスン 7-3 (⌖)",
+                "zh": "课程 7-3 (⌖)",
+                "fr": "Leçon 7-3 (⌖)",
+                "ko": "레슨 7-3 (⌖)",
+                "es": "Lección 7-3 (⌖)",
+                "pt": "Lição 7-3 (⌖)",
+                "de": "Lektion 7-3 (⌖)",
+                "ru": "Урок 7-3 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step7-3c-hint.png",
+              "initialState": "UuUuUuUuURlRRRRRRRFbFFFFFFFDDDDDDDDDLrLLLLLLLBfBBBBBBB",
+              "moves": "CAM(65,36) C_R9(B2 U B U B' U' B' U' B' U B') C_F9(R2 U R U R' U' R' U' R' U R') CAM(65,36)"
+            },
+            {
+              "id": "LBL-step7-lesson4-C",
+              "type": "lesson",
+              "title": {
+                "en": "Lesson 7-4 (⌖)",
+                "ja": "レッスン 7-4 (⌖)",
+                "zh": "课程 7-4 (⌖)",
+                "fr": "Leçon 7-4 (⌖)",
+                "ko": "레슨 7-4 (⌖)",
+                "es": "Lección 7-4 (⌖)",
+                "pt": "Lição 7-4 (⌖)",
+                "de": "Lektion 7-4 (⌖)",
+                "ru": "Урок 7-4 (⌖)"
+              },
+              "hint1": "tutorial/LBL/step7-4c-hint.png",
+              "initialState": "UuUuUuUuURbRRRRRRRFlFFFFFFFDDDDDDDDDLfLLLLLLLBrBBBBBBB",
+              "moves": "CAM(65,36) C_R7(F2 U' F' U' F U F U F U' F) C_F7(L2 U' L' U' L U L U L U' L) CAM(65,36)"
+            },
+            {
+              "id": "LBL-step7-exam1",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 7-1",
+                "ja": "卒業試験 7-1",
+                "zh": "毕业测试 7-1",
+                "fr": "Examen final 7-1",
+                "ko": "졸업 시험 7-1",
+                "es": "Examen final 7-1",
+                "pt": "Exame final 7-1",
+                "de": "Abschlussprüfung 7-1",
+                "ru": "Выпускной экзамен 7-1"
+              },
+              "initialState": "UUUuUuUuURfRRRRRRRFlFFFFFFFDDDDDDDDDLrLLLLLLLBBBBBBBBB",
+              "goalState": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+            },
+            {
+              "id": "LBL-step7-exam2",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 7-2",
+                "ja": "卒業試験 7-2",
+                "zh": "毕业测试 7-2",
+                "fr": "Examen final 7-2",
+                "ko": "졸업 시험 7-2",
+                "es": "Examen final 7-2",
+                "pt": "Exame final 7-2",
+                "de": "Abschlussprüfung 7-2",
+                "ru": "Выпускной экзамен 7-2"
+              },
+              "initialState": "UUUuUuUuURlRRRRRRRFrFFFFFFFDDDDDDDDDLfLLLLLLLBBBBBBBBB",
+              "goalState": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+            },
+            {
+              "id": "LBL-step7-exam3",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 7-3",
+                "ja": "卒業試験 7-3",
+                "zh": "毕业测试 7-3",
+                "fr": "Examen final 7-3",
+                "ko": "졸업 시험 7-3",
+                "es": "Examen final 7-3",
+                "pt": "Exame final 7-3",
+                "de": "Abschlussprüfung 7-3",
+                "ru": "Выпускной экзамен 7-3"
+              },
+              "initialState": "UuUuUuUuURlRRRRRRRFbFFFFFFFDDDDDDDDDLrLLLLLLLBfBBBBBBB",
+              "goalState": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+            },
+            {
+              "id": "LBL-step7-exam4",
+              "type": "exam",
+              "title": {
+                "en": "Final Exam 7-4",
+                "ja": "卒業試験 7-4",
+                "zh": "毕业测试 7-4",
+                "fr": "Examen final 7-4",
+                "ko": "졸업 시험 7-4",
+                "es": "Examen final 7-4",
+                "pt": "Exame final 7-4",
+                "de": "Abschlussprüfung 7-4",
+                "ru": "Выпускной экзамен 7-4"
+              },
+              "initialState": "UuUuUuUuURbRRRRRRRFlFFFFFFFDDDDDDDDDLfLLLLLLLBrBBBBBBB",
+              "goalState": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
