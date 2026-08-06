@@ -1,40 +1,40 @@
 # cubew_tutorial
 
-[cubew](../cubew) アプリで使用する、3x3キューブパズルのチュートリアルデータ（LBL法）です。
+Tutorial data (LBL method) for the [cubew](https://itachiwalker.github.io/cubew/) app ([source code](https://github.com/itachiwalker/cubew)) — a 3x3 cube puzzle simulator.
 
-このリポジトリのデータは **MITライセンス** で公開されています。フォークして自由に改変・再配布いただけます。
+The data in this repository is published under the **MIT License**. Feel free to fork it and modify/redistribute it as you like.
 
 ---
 
-## このリポジトリに含まれるもの
+## What's in this repository
 
 ```
-default.json     # チュートリアル本体データ（レベル・ステップ・レッスン/試験の定義）
-LBL/*.png        # LBL法の各ステップで使うヒント画像・完成図
-terms/*.png      # 用語解説で使う画像
-spec.md / spec_ja.md   # default.json の記法・スキーマ仕様書（英語版・日本語版）
+default.json     # The tutorial content itself (definitions of levels, steps, lessons/exams)
+LBL/*.png        # Hint images and goal diagrams used at each step of the LBL method
+terms/*.png      # Images used for glossary/terminology explanations
+schema.md / schema.ja.md   # Schema/format spec for default.json (English / Japanese)
 ```
 
-`default.json` の書き方（フィールドの意味、`moves` の記法、画像の指定方法など）は [spec_ja.md](./spec_ja.md) を参照してください。
+See [schema.md](./schema.md) for how to write `default.json` (field meanings, `moves` notation, how to reference images, etc).
 
 ---
 
-## 使われ方
+## How it's used
 
-このリポジトリの `default.json` と画像一式は、[cubew](../cubew) アプリにそのまま同梱される形で使われています。アプリ内の「チュートリアル」機能（📚ボタン）から、このデータに基づいた段階的なレッスン・確認テストが表示されます。
+The `default.json` and image files in this repository are bundled directly into the [cubew](https://itachiwalker.github.io/cubew/) app ([source code](https://github.com/itachiwalker/cubew)). The app's "Tutorial" feature (the 📚 button) displays step-by-step lessons and exams based on this data.
 
-現時点では、cubewアプリは**このリポジトリのデータを直接同梱する形**でのみ動作します。任意のURLを指定して外部のチュートリアルデータを読み込む機能は今後追加予定です（対応後は、このリポジトリをフォークして独自のチュートリアルを作り、そのまま公開・利用できるようになります）。
-
----
-
-## コントリビュートについて
-
-- 誤字脱字・分かりにくい説明・手順の誤りなどを見つけた場合は、Issueまたはプルリクエストでお知らせください
-- 新しいレベル・ステップ・レッスンの追加提案も歓迎します。`spec_ja.md` の仕様に沿って `default.json` を編集し、プルリクエストを送ってください
-- 画像（`LBL/`・`terms/`）を追加・差し替える場合は、`default.json` 側の参照パスも忘れずに更新してください
+Currently, the cubew app **only works by bundling the data from this repository directly**. Support for loading external tutorial data from an arbitrary URL is planned for a future release (once that's added, you'll be able to fork this repository, build your own tutorial, and publish/use it as-is).
 
 ---
 
-## ライセンス
+## Contributing
 
-MIT License。詳細はリポジトリ内の `LICENSE` ファイルを参照してください。
+- If you find typos, unclear explanations, or errors in the steps, please let us know via an Issue or Pull Request
+- Suggestions for new levels, steps, or lessons are welcome too. Please edit `default.json` following the spec in [schema.md](./schema.md) and send a Pull Request
+- If you add or replace images (`LBL/`, `terms/`), please remember to also update the corresponding paths in `default.json`
+
+---
+
+## License
+
+MIT License. See the `LICENSE` file in this repository for details.
