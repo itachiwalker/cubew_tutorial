@@ -62,7 +62,21 @@
 | `title` | string または `{lang: text}` | 必須 | ステップのタイトル |
 | `description` | string または `{lang: text}` | 任意 | ステップの説明文。改行したい場合は文字列中に `<br>` を含めてください（それ以外のHTMLタグは解釈されず、そのまま文字として表示されます） |
 | `image` | string | 任意 | ステップの完成図・目標状態を示す画像のパス |
-| `items` | array | 必須 | アイテムの配列（下記） |
+| `items` | array | 必須 | アイテムの配列（下記）。**空配列も可**（用語解説専用ステップ。下記参照） |
+
+### 用語解説ステップ
+
+`items`を空配列（`[]`）にすると、レッスンや試験を含まない「用語解説専用のステップ」になります。`title`（用語名）・`description`（説明文）・`image`（図解）だけを使い、キューブ操作を伴わない読み物として表示されます。
+
+```json
+{
+  "id": "term-piece",
+  "title": { "ja": "ピース", "en": "Piece" },
+  "description": { "ja": "3x3キューブパズルを構成する全26個の直方体をピースと呼びます。", "en": "The 26 cuboids that make up a 3x3 cube puzzle are called pieces." },
+  "image": "terms/term1-piece.png",
+  "items": []
+}
+```
 
 ### 多言語対応（`title`・`description`共通）
 

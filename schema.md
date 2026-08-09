@@ -62,7 +62,21 @@ A single unit of learning within a level (e.g. "Bottom (Yellow) Cross").
 | `title` | string or `{lang: text}` | required | Step title |
 | `description` | string or `{lang: text}` | optional | Step description. Use `<br>` in the string for line breaks (any other HTML tags are not interpreted and are shown as plain text) |
 | `image` | string | optional | Path to an image showing the completed/goal state for this step |
-| `items` | array | required | Array of items (see below) |
+| `items` | array | required | Array of items (see below). **An empty array is also valid** — see "Glossary steps" below |
+
+### Glossary steps
+
+Setting `items` to an empty array (`[]`) turns a step into a glossary-only step, with no lesson or exam content. It uses only `title` (the term), `description` (the explanation), and `image` (an illustration), and is displayed as a read-only entry with no cube interaction.
+
+```json
+{
+  "id": "term-piece",
+  "title": { "en": "Piece", "ja": "ピース" },
+  "description": { "en": "The 26 cuboids that make up a 3x3 cube puzzle are called pieces.", "ja": "3x3キューブパズルを構成する全26個の直方体をピースと呼びます。" },
+  "image": "terms/term1-piece.png",
+  "items": []
+}
+```
 
 ### Multi-language support (applies to both `title` and `description`)
 
