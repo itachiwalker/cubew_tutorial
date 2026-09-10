@@ -9,7 +9,7 @@ This document defines the notation and schema for `default.json` (and any tutori
 ```json
 {
   "format": "cubew-tutorial-v1",
-  "version": 5,
+  "version": "a1b2c3d4",
   "levels": [ /* array of levels */ ]
 }
 ```
@@ -17,7 +17,7 @@ This document defines the notation and schema for `default.json` (and any tutori
 | Field | Type | Required | Description |
 |---|---|---|---|
 | `format` | string | required | Fixed value `"cubew-tutorial-v1"` |
-| `version` | number | required | Data version number. **Must be incremented every time the content is updated** (used for image cache-busting and the app's progress tracking) |
+| `version` | string | required | A short hash-like string, auto-set by `.git/hooks/pre-commit` to a random value whenever this file is part of a commit (used to cache-bust tutorial image URLs). **Do not edit by hand** — any value you write here gets overwritten at commit time regardless. Note: this is *not* what drives the app's per-level progress reset — that's a separate, independent content hash computed from each level's own JSON (see `my_cube-base.html`'s tutorial progress code), so editing level content still resets progress correctly even between commits |
 | `levels` | array | required | Array of levels (see below) |
 
 ---
@@ -218,7 +218,7 @@ For the U face, the corresponding rotational-symmetry copies are made among the 
 ```json
 {
   "format": "cubew-tutorial-v1",
-  "version": 1,
+  "version": "00000000",
   "levels": [
     {
       "id": "sample",

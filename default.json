@@ -1,6 +1,6 @@
 {
   "format": "cubew-tutorial-v1",
-  "version": 5,
+  "version": "d5343554",
   "levels": [
     {
       "id": "terms",
@@ -276,7 +276,7 @@
       },
       "steps": [
         {
-          "id": "LBL-step0-abstruct",
+          "id": "LBL-step0-abstract",
           "title": {
             "en": "What is the LBL method?",
             "ja": "LBL法とは",
@@ -1567,6 +1567,1771 @@
               },
               "initialState": "UuUuUuUuURbRRRRRRRFlFFFFFFFDDDDDDDDDLfLLLLLLLBrBBBBBBB",
               "goalState": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F2L",
+      "title": {
+        "ja": "F2L (全41パターン)",
+        "en": "F2L (All 41 Patterns)",
+        "zh": "F2L（全41种模式）",
+        "fr": "F2L (41 cas au total)",
+        "ko": "F2L (전체 41가지 패턴)",
+        "es": "F2L (41 patrones en total)",
+        "pt": "F2L (41 padrões no total)",
+        "de": "F2L (alle 41 Muster)",
+        "ru": "F2L (все 41 паттернов)"
+      },
+      "steps": [
+        {
+          "id": "F2L-abstract",
+          "title": {
+            "ja": "F2Lとは？",
+            "en": "What is F2L?",
+            "zh": "什么是F2L？",
+            "fr": "Qu'est-ce que le F2L ?",
+            "ko": "F2L이란?",
+            "es": "¿Qué es F2L?",
+            "pt": "O que é F2L?",
+            "de": "Was ist F2L?",
+            "ru": "Что такое F2L?"
+          },
+          "description": {
+            "ja": "F2L（ファースト・ツー・レイヤーズ）は、LBL法のように一層目のコーナーと二層目のエッジを別々に揃えるのではなく、対応するコーナーとエッジをペアとしてまとめて揃えていく解法です。1層目と2層目（First Two Layers）を同時に完成させることから、この名前が付けられています。このステップでは、F面とR面の間（前右）のスロットに入るコーナー・エッジペアについて、認識すべき全41パターンを扱います。いずれか1つのパターンを終えると、三層のキューブのうち下二層が揃います。",
+            "en": "F2L stands for \"First Two Layers.\" Instead of placing a first-layer corner and its matching second-layer edge separately as in the LBL method, F2L solves them together as a single pair, completing the first and second layers at the same time. This step covers all 41 standard recognition patterns for the corner-edge pair that sits in the front-right (F/R) slot. After completing any one of these patterns, the bottom two of the three layers are solved.",
+            "zh": "F2L 是 \"First Two Layers\"（前两层）的缩写。与LBL法分别放置角块和棱块不同，F2L将第一层的角块与对应的第二层棱块作为一对同时还原，从而同时完成第一层和第二层，因此得名。本步骤涵盖了插入前右（F/R）槽位的角块-棱块组合的全部41种识别模式。完成其中任意一种模式后，三层魔方中的下两层即已还原。",
+            "fr": "F2L signifie « First Two Layers » (les deux premières couches). Contrairement à la méthode LBL où le coin et l'arête sont placés séparément, le F2L consiste à résoudre ensemble, comme une seule paire, un coin de la première couche et l'arête correspondante de la deuxième couche, complétant ainsi les deux premières couches en même temps — d'où son nom. Cette étape couvre les 41 cas de reconnaissance standard pour la paire coin-arête qui se loge dans l'emplacement avant-droit (F/R). Après avoir terminé n'importe lequel de ces cas, les deux couches du bas sont résolues.",
+            "ko": "F2L은 \"First Two Layers\"(처음 두 층)의 줄임말입니다. LBL법처럼 코너와 엣지를 따로따로 맞추는 대신, F2L에서는 1층의 코너와 그에 대응하는 2층의 엣지를 하나의 쌍으로 한 번에 맞추어 1층과 2층을 동시에 완성하기 때문에 이런 이름이 붙었습니다. 이 스텝에서는 앞-오른쪽(F/R) 슬롯에 들어가는 코너-엣지 쌍에 대해 인식해야 할 전체 41가지 패턴을 다룹니다. 이 패턴 중 하나를 완료하면 3층 큐브 중 아래 2층이 맞춰집니다.",
+            "es": "F2L significa \"First Two Layers\" (las dos primeras capas). A diferencia del método LBL, donde la esquina y la arista se colocan por separado, en F2L resuelves juntas, como un solo par, una esquina de la primera capa y su arista correspondiente de la segunda capa, completando así la primera y la segunda capa al mismo tiempo; de ahí su nombre. Este paso cubre los 41 patrones de reconocimiento estándar para el par esquina-arista que encaja en la ranura delantera-derecha (F/R). Al completar cualquiera de estos patrones, las dos capas inferiores quedan resueltas.",
+            "pt": "F2L significa \"First Two Layers\" (as duas primeiras camadas). Ao contrário do método LBL, em que o canto e a aresta são colocados separadamente, no F2L você resolve juntos, como um único par, um canto da primeira camada e a aresta correspondente da segunda camada, completando a primeira e a segunda camada ao mesmo tempo — daí o nome. Esta etapa cobre os 41 padrões de reconhecimento padrão para o par canto-aresta que se encaixa no slot frente-direita (F/R). Ao concluir qualquer um desses padrões, as duas camadas inferiores ficam resolvidas.",
+            "de": "F2L steht für „First Two Layers“ (die ersten zwei Schichten). Anders als bei der LBL-Methode, bei der Ecke und Kante getrennt platziert werden, löst du bei F2L eine Ecke der ersten Schicht und die zugehörige Kante der zweiten Schicht gemeinsam als ein Paar und vervollständigst so die erste und zweite Schicht gleichzeitig – daher der Name. Dieser Schritt behandelt alle 41 Standard-Erkennungsmuster für das Ecke-Kante-Paar, das in den vorne-rechts (F/R) Slot eingesetzt wird. Nach Abschluss eines dieser Muster sind die unteren zwei Schichten gelöst.",
+            "ru": "F2L расшифровывается как «First Two Layers» (первые два слоя). В отличие от метода LBL, где угловой элемент и ребро собираются по отдельности, в F2L вы собираете угловой элемент первого слоя и соответствующее ему ребро второго слоя вместе, как одну пару, завершая первый и второй слой одновременно — отсюда и название. Этот шаг охватывает все 41 стандартный случай для пары угол-ребро, вставляемой в передне-правый (F/R) паз. После завершения любого из этих случаев нижние два из трёх слоёв собраны."
+          },
+          "image": "tutorial/F2L/start/F2L-abstract.png",
+          "items": []
+        },
+        {
+          "id": "F2L-01",
+          "title": "F2L-01",
+          "image": "tutorial/F2L/start/F2L-01.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-01",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-01",
+                "en": "Lesson F2L-01",
+                "zh": "课程 F2L-01",
+                "fr": "Leçon F2L-01",
+                "ko": "레슨 F2L-01",
+                "es": "Lección F2L-01",
+                "pt": "Lição F2L-01",
+                "de": "Lektion F2L-01",
+                "ru": "Урок F2L-01"
+              },
+              "initialState": "WWWWWFWWFRRWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U R U' R'",
+              "hint1": "tutorial/F2L/F2L-01-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-01",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-01",
+                "en": "Final Exam F2L-01",
+                "zh": "结业测试 F2L-01",
+                "fr": "Examen final F2L-01",
+                "ko": "졸업 시험 F2L-01",
+                "es": "Examen final F2L-01",
+                "pt": "Exame final F2L-01",
+                "de": "Abschlussprüfung F2L-01",
+                "ru": "Выпускной экзамен F2L-01"
+              },
+              "initialState": "WWWWWFWWFRRWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-02",
+          "title": "F2L-02",
+          "image": "tutorial/F2L/start/F2L-02.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-02",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-02",
+                "en": "Lesson F2L-02",
+                "zh": "课程 F2L-02",
+                "fr": "Leçon F2L-02",
+                "ko": "레슨 F2L-02",
+                "es": "Lección F2L-02",
+                "pt": "Lição F2L-02",
+                "de": "Lektion F2L-02",
+                "ru": "Урок F2L-02"
+              },
+              "initialState": "WWWWWWWRRDWWWRRWRRWFFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "F R' F' R",
+              "hint1": "tutorial/F2L/F2L-02-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-02",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-02",
+                "en": "Final Exam F2L-02",
+                "zh": "结业测试 F2L-02",
+                "fr": "Examen final F2L-02",
+                "ko": "졸업 시험 F2L-02",
+                "es": "Examen final F2L-02",
+                "pt": "Exame final F2L-02",
+                "de": "Abschlussprüfung F2L-02",
+                "ru": "Выпускной экзамен F2L-02"
+              },
+              "initialState": "WWWWWWWRRDWWWRRWRRWFFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-03",
+          "title": "F2L-03",
+          "image": "tutorial/F2L/start/F2L-03.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-03",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-03",
+                "en": "Lesson F2L-03",
+                "zh": "课程 F2L-03",
+                "fr": "Leçon F2L-03",
+                "ko": "레슨 F2L-03",
+                "es": "Lección F2L-03",
+                "pt": "Lição F2L-03",
+                "de": "Lektion F2L-03",
+                "ru": "Урок F2L-03"
+              },
+              "initialState": "WWWRWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
+              "moves": "F' U' F",
+              "hint1": "tutorial/F2L/F2L-03-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-03",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-03",
+                "en": "Final Exam F2L-03",
+                "zh": "结业测试 F2L-03",
+                "fr": "Examen final F2L-03",
+                "ko": "졸업 시험 F2L-03",
+                "es": "Examen final F2L-03",
+                "pt": "Exame final F2L-03",
+                "de": "Abschlussprüfung F2L-03",
+                "ru": "Выпускной экзамен F2L-03"
+              },
+              "initialState": "WWWRWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-04",
+          "title": "F2L-04",
+          "image": "tutorial/F2L/start/F2L-04.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-04",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-04",
+                "en": "Lesson F2L-04",
+                "zh": "课程 F2L-04",
+                "fr": "Leçon F2L-04",
+                "ko": "레슨 F2L-04",
+                "es": "Lección F2L-04",
+                "pt": "Lição F2L-04",
+                "de": "Lektion F2L-04",
+                "ru": "Урок F2L-04"
+              },
+              "initialState": "WFWWWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
+              "moves": "R U R'",
+              "hint1": "tutorial/F2L/F2L-04-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-04",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-04",
+                "en": "Final Exam F2L-04",
+                "zh": "结业测试 F2L-04",
+                "fr": "Examen final F2L-04",
+                "ko": "졸업 시험 F2L-04",
+                "es": "Examen final F2L-04",
+                "pt": "Exame final F2L-04",
+                "de": "Abschlussprüfung F2L-04",
+                "ru": "Выпускной экзамен F2L-04"
+              },
+              "initialState": "WFWWWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-05",
+          "title": "F2L-05",
+          "image": "tutorial/F2L/start/F2L-05.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-05",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-05",
+                "en": "Lesson F2L-05",
+                "zh": "课程 F2L-05",
+                "fr": "Leçon F2L-05",
+                "ko": "레슨 F2L-05",
+                "es": "Lección F2L-05",
+                "pt": "Lição F2L-05",
+                "de": "Lektion F2L-05",
+                "ru": "Урок F2L-05"
+              },
+              "initialState": "WFWWWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
+              "moves": "U' R U R' U2 R U' R'",
+              "hint1": "tutorial/F2L/F2L-05-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-05",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-05",
+                "en": "Final Exam F2L-05",
+                "zh": "结业测试 F2L-05",
+                "fr": "Examen final F2L-05",
+                "ko": "졸업 시험 F2L-05",
+                "es": "Examen final F2L-05",
+                "pt": "Exame final F2L-05",
+                "de": "Abschlussprüfung F2L-05",
+                "ru": "Выпускной экзамен F2L-05"
+              },
+              "initialState": "WFWWWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-06",
+          "title": "F2L-06",
+          "image": "tutorial/F2L/start/F2L-06.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-06",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-06",
+                "en": "Lesson F2L-06",
+                "zh": "课程 F2L-06",
+                "fr": "Leçon F2L-06",
+                "ko": "레슨 F2L-06",
+                "es": "Lección F2L-06",
+                "pt": "Lição F2L-06",
+                "de": "Lektion F2L-06",
+                "ru": "Урок F2L-06"
+              },
+              "initialState": "WWWRWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
+              "moves": "U' L F' R' F R F L'",
+              "hint1": "tutorial/F2L/F2L-06-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-06",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-06",
+                "en": "Final Exam F2L-06",
+                "zh": "结业测试 F2L-06",
+                "fr": "Examen final F2L-06",
+                "ko": "졸업 시험 F2L-06",
+                "es": "Examen final F2L-06",
+                "pt": "Exame final F2L-06",
+                "de": "Abschlussprüfung F2L-06",
+                "ru": "Выпускной экзамен F2L-06"
+              },
+              "initialState": "WWWRWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-07",
+          "title": "F2L-07",
+          "image": "tutorial/F2L/start/F2L-07.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-07",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-07",
+                "en": "Lesson F2L-07",
+                "zh": "课程 F2L-07",
+                "fr": "Leçon F2L-07",
+                "ko": "레슨 F2L-07",
+                "es": "Lección F2L-07",
+                "pt": "Lição F2L-07",
+                "de": "Lektion F2L-07",
+                "ru": "Урок F2L-07"
+              },
+              "initialState": "WWWFWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
+              "moves": "U' R U2 R' U2 R U' R'",
+              "hint1": "tutorial/F2L/F2L-07-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-07",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-07",
+                "en": "Final Exam F2L-07",
+                "zh": "结业测试 F2L-07",
+                "fr": "Examen final F2L-07",
+                "ko": "졸업 시험 F2L-07",
+                "es": "Examen final F2L-07",
+                "pt": "Exame final F2L-07",
+                "de": "Abschlussprüfung F2L-07",
+                "ru": "Выпускной экзамен F2L-07"
+              },
+              "initialState": "WWWFWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-08",
+          "title": "F2L-08",
+          "image": "tutorial/F2L/start/F2L-08.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-08",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-08",
+                "en": "Lesson F2L-08",
+                "zh": "课程 F2L-08",
+                "fr": "Leçon F2L-08",
+                "ko": "레슨 F2L-08",
+                "es": "Lección F2L-08",
+                "pt": "Lição F2L-08",
+                "de": "Lektion F2L-08",
+                "ru": "Урок F2L-08"
+              },
+              "initialState": "WRWWWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
+              "moves": "L' B2 R2 B R2 B L",
+              "hint1": "tutorial/F2L/F2L-08-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-08",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-08",
+                "en": "Final Exam F2L-08",
+                "zh": "结业测试 F2L-08",
+                "fr": "Examen final F2L-08",
+                "ko": "졸업 시험 F2L-08",
+                "es": "Examen final F2L-08",
+                "pt": "Exame final F2L-08",
+                "de": "Abschlussprüfung F2L-08",
+                "ru": "Выпускной экзамен F2L-08"
+              },
+              "initialState": "WRWWWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-09",
+          "title": "F2L-09",
+          "image": "tutorial/F2L/start/F2L-09.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-09",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-09",
+                "en": "Lesson F2L-09",
+                "zh": "课程 F2L-09",
+                "fr": "Leçon F2L-09",
+                "ko": "레슨 F2L-09",
+                "es": "Lección F2L-09",
+                "pt": "Lição F2L-09",
+                "de": "Lektion F2L-09",
+                "ru": "Урок F2L-09"
+              },
+              "initialState": "WRWWWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
+              "moves": "U' R U' R' U F' U' F",
+              "hint1": "tutorial/F2L/F2L-09-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-09",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-09",
+                "en": "Final Exam F2L-09",
+                "zh": "结业测试 F2L-09",
+                "fr": "Examen final F2L-09",
+                "ko": "졸업 시험 F2L-09",
+                "es": "Examen final F2L-09",
+                "pt": "Exame final F2L-09",
+                "de": "Abschlussprüfung F2L-09",
+                "ru": "Выпускной экзамен F2L-09"
+              },
+              "initialState": "WRWWWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-10",
+          "title": "F2L-10",
+          "image": "tutorial/F2L/start/F2L-10.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-10",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-10",
+                "en": "Lesson F2L-10",
+                "zh": "课程 F2L-10",
+                "fr": "Leçon F2L-10",
+                "ko": "레슨 F2L-10",
+                "es": "Lección F2L-10",
+                "pt": "Lição F2L-10",
+                "de": "Lektion F2L-10",
+                "ru": "Урок F2L-10"
+              },
+              "initialState": "WWWFWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
+              "moves": "U' R U R' U R U R'",
+              "hint1": "tutorial/F2L/F2L-10-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-10",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-10",
+                "en": "Final Exam F2L-10",
+                "zh": "结业测试 F2L-10",
+                "fr": "Examen final F2L-10",
+                "ko": "졸업 시험 F2L-10",
+                "es": "Examen final F2L-10",
+                "pt": "Exame final F2L-10",
+                "de": "Abschlussprüfung F2L-10",
+                "ru": "Выпускной экзамен F2L-10"
+              },
+              "initialState": "WWWFWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-11",
+          "title": "F2L-11",
+          "image": "tutorial/F2L/start/F2L-11.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-11",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-11",
+                "en": "Lesson F2L-11",
+                "zh": "课程 F2L-11",
+                "fr": "Leçon F2L-11",
+                "ko": "레슨 F2L-11",
+                "es": "Lección F2L-11",
+                "pt": "Lição F2L-11",
+                "de": "Lektion F2L-11",
+                "ru": "Урок F2L-11"
+              },
+              "initialState": "WWWWWRWWFRFWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R U2 R' U F' U' F",
+              "hint1": "tutorial/F2L/F2L-11-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-11",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-11",
+                "en": "Final Exam F2L-11",
+                "zh": "结业测试 F2L-11",
+                "fr": "Examen final F2L-11",
+                "ko": "졸업 시험 F2L-11",
+                "es": "Examen final F2L-11",
+                "pt": "Exame final F2L-11",
+                "de": "Abschlussprüfung F2L-11",
+                "ru": "Выпускной экзамен F2L-11"
+              },
+              "initialState": "WWWWWRWWFRFWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-12",
+          "title": "F2L-12",
+          "image": "tutorial/F2L/start/F2L-12.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-12",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-12",
+                "en": "Lesson F2L-12",
+                "zh": "课程 F2L-12",
+                "fr": "Leçon F2L-12",
+                "ko": "레슨 F2L-12",
+                "es": "Lección F2L-12",
+                "pt": "Lição F2L-12",
+                "de": "Lektion F2L-12",
+                "ru": "Урок F2L-12"
+              },
+              "initialState": "WWWWWWWFRDWWWRRWRRWRFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R' U2 R2 U R2 U R",
+              "hint1": "tutorial/F2L/F2L-12-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-12",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-12",
+                "en": "Final Exam F2L-12",
+                "zh": "结业测试 F2L-12",
+                "fr": "Examen final F2L-12",
+                "ko": "졸업 시험 F2L-12",
+                "es": "Examen final F2L-12",
+                "pt": "Exame final F2L-12",
+                "de": "Abschlussprüfung F2L-12",
+                "ru": "Выпускной экзамен F2L-12"
+              },
+              "initialState": "WWWWWWWFRDWWWRRWRRWRFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-13",
+          "title": "F2L-13",
+          "image": "tutorial/F2L/start/F2L-13.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-13",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-13",
+                "en": "Lesson F2L-13",
+                "zh": "课程 F2L-13",
+                "fr": "Leçon F2L-13",
+                "ko": "레슨 F2L-13",
+                "es": "Lección F2L-13",
+                "pt": "Lição F2L-13",
+                "de": "Lektion F2L-13",
+                "ru": "Урок F2L-13"
+              },
+              "initialState": "WWWWWWWRFRWWWRRWRRWFDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U' R' U R' F R F' R U' R'",
+              "hint1": "tutorial/F2L/F2L-13-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-13",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-13",
+                "en": "Final Exam F2L-13",
+                "zh": "结业测试 F2L-13",
+                "fr": "Examen final F2L-13",
+                "ko": "졸업 시험 F2L-13",
+                "es": "Examen final F2L-13",
+                "pt": "Exame final F2L-13",
+                "de": "Abschlussprüfung F2L-13",
+                "ru": "Выпускной экзамен F2L-13"
+              },
+              "initialState": "WWWWWWWRFRWWWRRWRRWFDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-14",
+          "title": "F2L-14",
+          "image": "tutorial/F2L/start/F2L-14.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-14",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-14",
+                "en": "Lesson F2L-14",
+                "zh": "课程 F2L-14",
+                "fr": "Leçon F2L-14",
+                "ko": "레슨 F2L-14",
+                "es": "Lección F2L-14",
+                "pt": "Lição F2L-14",
+                "de": "Lektion F2L-14",
+                "ru": "Урок F2L-14"
+              },
+              "initialState": "WWWWWFWWRDRWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R U' R' U R U R'",
+              "hint1": "tutorial/F2L/F2L-14-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-14",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-14",
+                "en": "Final Exam F2L-14",
+                "zh": "结业测试 F2L-14",
+                "fr": "Examen final F2L-14",
+                "ko": "졸업 시험 F2L-14",
+                "es": "Examen final F2L-14",
+                "pt": "Exame final F2L-14",
+                "de": "Abschlussprüfung F2L-14",
+                "ru": "Выпускной экзамен F2L-14"
+              },
+              "initialState": "WWWWWFWWRDRWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-15",
+          "title": "F2L-15",
+          "image": "tutorial/F2L/start/F2L-15.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-15",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-15",
+                "en": "Lesson F2L-15",
+                "zh": "课程 F2L-15",
+                "fr": "Leçon F2L-15",
+                "ko": "레슨 F2L-15",
+                "es": "Lección F2L-15",
+                "pt": "Lição F2L-15",
+                "de": "Lektion F2L-15",
+                "ru": "Урок F2L-15"
+              },
+              "initialState": "WWWWWWWFFRWWWRRWRRWRDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U R' F R F' U R U R'",
+              "hint1": "tutorial/F2L/F2L-15-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-15",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-15",
+                "en": "Final Exam F2L-15",
+                "zh": "结业测试 F2L-15",
+                "fr": "Examen final F2L-15",
+                "ko": "졸업 시험 F2L-15",
+                "es": "Examen final F2L-15",
+                "pt": "Exame final F2L-15",
+                "de": "Abschlussprüfung F2L-15",
+                "ru": "Выпускной экзамен F2L-15"
+              },
+              "initialState": "WWWWWWWFFRWWWRRWRRWRDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-16",
+          "title": "F2L-16",
+          "image": "tutorial/F2L/start/F2L-16.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-16",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-16",
+                "en": "Lesson F2L-16",
+                "zh": "课程 F2L-16",
+                "fr": "Leçon F2L-16",
+                "ko": "레슨 F2L-16",
+                "es": "Lección F2L-16",
+                "pt": "Lição F2L-16",
+                "de": "Lektion F2L-16",
+                "ru": "Урок F2L-16"
+              },
+              "initialState": "WWWWWRWWRDFWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U' R' U2 F' U' F",
+              "hint1": "tutorial/F2L/F2L-16-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-16",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-16",
+                "en": "Final Exam F2L-16",
+                "zh": "结业测试 F2L-16",
+                "fr": "Examen final F2L-16",
+                "ko": "졸업 시험 F2L-16",
+                "es": "Examen final F2L-16",
+                "pt": "Exame final F2L-16",
+                "de": "Abschlussprüfung F2L-16",
+                "ru": "Выпускной экзамен F2L-16"
+              },
+              "initialState": "WWWWWRWWRDFWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-17",
+          "title": "F2L-17",
+          "image": "tutorial/F2L/start/F2L-17.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-17",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-17",
+                "en": "Lesson F2L-17",
+                "zh": "课程 F2L-17",
+                "fr": "Leçon F2L-17",
+                "ko": "레슨 F2L-17",
+                "es": "Lección F2L-17",
+                "pt": "Lição F2L-17",
+                "de": "Lektion F2L-17",
+                "ru": "Урок F2L-17"
+              },
+              "initialState": "WWWWWFWWDFRWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U2 R' U' R U R'",
+              "hint1": "tutorial/F2L/F2L-17-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-17",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-17",
+                "en": "Final Exam F2L-17",
+                "zh": "结业测试 F2L-17",
+                "fr": "Examen final F2L-17",
+                "ko": "졸업 시험 F2L-17",
+                "es": "Examen final F2L-17",
+                "pt": "Exame final F2L-17",
+                "de": "Abschlussprüfung F2L-17",
+                "ru": "Выпускной экзамен F2L-17"
+              },
+              "initialState": "WWWWWFWWDFRWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-18",
+          "title": "F2L-18",
+          "image": "tutorial/F2L/start/F2L-18.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-18",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-18",
+                "en": "Lesson F2L-18",
+                "zh": "课程 F2L-18",
+                "fr": "Leçon F2L-18",
+                "ko": "레슨 F2L-18",
+                "es": "Lección F2L-18",
+                "pt": "Lição F2L-18",
+                "de": "Lektion F2L-18",
+                "ru": "Урок F2L-18"
+              },
+              "initialState": "WWWWWWWRDFWWWRRWRRWFRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R' F R F' R U' R' U R U' R'",
+              "hint1": "tutorial/F2L/F2L-18-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-18",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-18",
+                "en": "Final Exam F2L-18",
+                "zh": "结业测试 F2L-18",
+                "fr": "Examen final F2L-18",
+                "ko": "졸업 시험 F2L-18",
+                "es": "Examen final F2L-18",
+                "pt": "Exame final F2L-18",
+                "de": "Abschlussprüfung F2L-18",
+                "ru": "Выпускной экзамен F2L-18"
+              },
+              "initialState": "WWWWWWWRDFWWWRRWRRWFRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-19",
+          "title": "F2L-19",
+          "image": "tutorial/F2L/start/F2L-19.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-19",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-19",
+                "en": "Lesson F2L-19",
+                "zh": "课程 F2L-19",
+                "fr": "Leçon F2L-19",
+                "ko": "레슨 F2L-19",
+                "es": "Lección F2L-19",
+                "pt": "Lição F2L-19",
+                "de": "Lektion F2L-19",
+                "ru": "Урок F2L-19"
+              },
+              "initialState": "WFWWWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
+              "moves": "U R U2 R2 F R F'",
+              "hint1": "tutorial/F2L/F2L-19-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-19",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-19",
+                "en": "Final Exam F2L-19",
+                "zh": "结业测试 F2L-19",
+                "fr": "Examen final F2L-19",
+                "ko": "졸업 시험 F2L-19",
+                "es": "Examen final F2L-19",
+                "pt": "Exame final F2L-19",
+                "de": "Abschlussprüfung F2L-19",
+                "ru": "Выпускной экзамен F2L-19"
+              },
+              "initialState": "WFWWWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-20",
+          "title": "F2L-20",
+          "image": "tutorial/F2L/start/F2L-20.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-20",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-20",
+                "en": "Lesson F2L-20",
+                "zh": "课程 F2L-20",
+                "fr": "Leçon F2L-20",
+                "ko": "레슨 F2L-20",
+                "es": "Lección F2L-20",
+                "pt": "Lição F2L-20",
+                "de": "Lektion F2L-20",
+                "ru": "Урок F2L-20"
+              },
+              "initialState": "WWWRWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
+              "moves": "U' R U' R2 F R F' R U' R'",
+              "hint1": "tutorial/F2L/F2L-20-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-20",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-20",
+                "en": "Final Exam F2L-20",
+                "zh": "结业测试 F2L-20",
+                "fr": "Examen final F2L-20",
+                "ko": "졸업 시험 F2L-20",
+                "es": "Examen final F2L-20",
+                "pt": "Exame final F2L-20",
+                "de": "Abschlussprüfung F2L-20",
+                "ru": "Выпускной экзамен F2L-20"
+              },
+              "initialState": "WWWRWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-21",
+          "title": "F2L-21",
+          "image": "tutorial/F2L/start/F2L-21.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-21",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-21",
+                "en": "Lesson F2L-21",
+                "zh": "课程 F2L-21",
+                "fr": "Leçon F2L-21",
+                "ko": "레슨 F2L-21",
+                "es": "Lección F2L-21",
+                "pt": "Lição F2L-21",
+                "de": "Lektion F2L-21",
+                "ru": "Урок F2L-21"
+              },
+              "initialState": "WWWFWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
+              "moves": "R U' R' U2 R U R'",
+              "hint1": "tutorial/F2L/F2L-21-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-21",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-21",
+                "en": "Final Exam F2L-21",
+                "zh": "结业测试 F2L-21",
+                "fr": "Examen final F2L-21",
+                "ko": "졸업 시험 F2L-21",
+                "es": "Examen final F2L-21",
+                "pt": "Exame final F2L-21",
+                "de": "Abschlussprüfung F2L-21",
+                "ru": "Выпускной экзамен F2L-21"
+              },
+              "initialState": "WWWFWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-22",
+          "title": "F2L-22",
+          "image": "tutorial/F2L/start/F2L-22.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-22",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-22",
+                "en": "Lesson F2L-22",
+                "zh": "课程 F2L-22",
+                "fr": "Leçon F2L-22",
+                "ko": "레슨 F2L-22",
+                "es": "Lección F2L-22",
+                "pt": "Lição F2L-22",
+                "de": "Lektion F2L-22",
+                "ru": "Урок F2L-22"
+              },
+              "initialState": "WRWWWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
+              "moves": "F' L' U2 L F",
+              "hint1": "tutorial/F2L/F2L-22-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-22",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-22",
+                "en": "Final Exam F2L-22",
+                "zh": "结业测试 F2L-22",
+                "fr": "Examen final F2L-22",
+                "ko": "졸업 시험 F2L-22",
+                "es": "Examen final F2L-22",
+                "pt": "Exame final F2L-22",
+                "de": "Abschlussprüfung F2L-22",
+                "ru": "Выпускной экзамен F2L-22"
+              },
+              "initialState": "WRWWWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-23",
+          "title": "F2L-23",
+          "image": "tutorial/F2L/start/F2L-23.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-23",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-23",
+                "en": "Lesson F2L-23",
+                "zh": "课程 F2L-23",
+                "fr": "Leçon F2L-23",
+                "ko": "레슨 F2L-23",
+                "es": "Lección F2L-23",
+                "pt": "Lição F2L-23",
+                "de": "Lektion F2L-23",
+                "ru": "Урок F2L-23"
+              },
+              "initialState": "WWWWWWWFDFWWWRRWRRWRRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U2 R2 U2 R' U' R U' R2",
+              "hint1": "tutorial/F2L/F2L-23-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-23",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-23",
+                "en": "Final Exam F2L-23",
+                "zh": "结业测试 F2L-23",
+                "fr": "Examen final F2L-23",
+                "ko": "졸업 시험 F2L-23",
+                "es": "Examen final F2L-23",
+                "pt": "Exame final F2L-23",
+                "de": "Abschlussprüfung F2L-23",
+                "ru": "Выпускной экзамен F2L-23"
+              },
+              "initialState": "WWWWWWWFDFWWWRRWRRWRRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-24",
+          "title": "F2L-24",
+          "image": "tutorial/F2L/start/F2L-24.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-24",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-24",
+                "en": "Lesson F2L-24",
+                "zh": "课程 F2L-24",
+                "fr": "Leçon F2L-24",
+                "ko": "레슨 F2L-24",
+                "es": "Lección F2L-24",
+                "pt": "Lição F2L-24",
+                "de": "Lektion F2L-24",
+                "ru": "Урок F2L-24"
+              },
+              "initialState": "WWWWWRWWDFFWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "F U R U' R' F' R U' R'",
+              "hint1": "tutorial/F2L/F2L-24-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-24",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-24",
+                "en": "Final Exam F2L-24",
+                "zh": "结业测试 F2L-24",
+                "fr": "Examen final F2L-24",
+                "ko": "졸업 시험 F2L-24",
+                "es": "Examen final F2L-24",
+                "pt": "Exame final F2L-24",
+                "de": "Abschlussprüfung F2L-24",
+                "ru": "Выпускной экзамен F2L-24"
+              },
+              "initialState": "WWWWWRWWDFFWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-25",
+          "title": "F2L-25",
+          "image": "tutorial/F2L/start/F2L-25.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-25",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-25",
+                "en": "Lesson F2L-25",
+                "zh": "课程 F2L-25",
+                "fr": "Leçon F2L-25",
+                "ko": "레슨 F2L-25",
+                "es": "Lección F2L-25",
+                "pt": "Lição F2L-25",
+                "de": "Lektion F2L-25",
+                "ru": "Урок F2L-25"
+              },
+              "initialState": "WWWWWFWWWWRWWRRRRRWWWFFWFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R' F R F' R U R'",
+              "hint1": "tutorial/F2L/F2L-25-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-25",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-25",
+                "en": "Final Exam F2L-25",
+                "zh": "结业测试 F2L-25",
+                "fr": "Examen final F2L-25",
+                "ko": "졸업 시험 F2L-25",
+                "es": "Examen final F2L-25",
+                "pt": "Exame final F2L-25",
+                "de": "Abschlussprüfung F2L-25",
+                "ru": "Выпускной экзамен F2L-25"
+              },
+              "initialState": "WWWWWFWWWWRWWRRRRRWWWFFWFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-26",
+          "title": "F2L-26",
+          "image": "tutorial/F2L/start/F2L-26.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-26",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-26",
+                "en": "Lesson F2L-26",
+                "zh": "课程 F2L-26",
+                "fr": "Leçon F2L-26",
+                "ko": "레슨 F2L-26",
+                "es": "Lección F2L-26",
+                "pt": "Lição F2L-26",
+                "de": "Lektion F2L-26",
+                "ru": "Урок F2L-26"
+              },
+              "initialState": "WWWWWWWRWWWWWRRRRRWFWFFWFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U R U' R' U' F' U F",
+              "hint1": "tutorial/F2L/F2L-26-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-26",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-26",
+                "en": "Final Exam F2L-26",
+                "zh": "结业测试 F2L-26",
+                "fr": "Examen final F2L-26",
+                "ko": "졸업 시험 F2L-26",
+                "es": "Examen final F2L-26",
+                "pt": "Exame final F2L-26",
+                "de": "Abschlussprüfung F2L-26",
+                "ru": "Выпускной экзамен F2L-26"
+              },
+              "initialState": "WWWWWWWRWWWWWRRRRRWFWFFWFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-27",
+          "title": "F2L-27",
+          "image": "tutorial/F2L/start/F2L-27.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-27",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-27",
+                "en": "Lesson F2L-27",
+                "zh": "课程 F2L-27",
+                "fr": "Leçon F2L-27",
+                "ko": "레슨 F2L-27",
+                "es": "Lección F2L-27",
+                "pt": "Lição F2L-27",
+                "de": "Lektion F2L-27",
+                "ru": "Урок F2L-27"
+              },
+              "initialState": "WWWWWFWWWWRWWRRFRRWWWFFWFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U' R2 F R F'",
+              "hint1": "tutorial/F2L/F2L-27-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-27",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-27",
+                "en": "Final Exam F2L-27",
+                "zh": "结业测试 F2L-27",
+                "fr": "Examen final F2L-27",
+                "ko": "졸업 시험 F2L-27",
+                "es": "Examen final F2L-27",
+                "pt": "Exame final F2L-27",
+                "de": "Abschlussprüfung F2L-27",
+                "ru": "Выпускной экзамен F2L-27"
+              },
+              "initialState": "WWWWWFWWWWRWWRRFRRWWWFFWFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-28",
+          "title": "F2L-28",
+          "image": "tutorial/F2L/start/F2L-28.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-28",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-28",
+                "en": "Lesson F2L-28",
+                "zh": "课程 F2L-28",
+                "fr": "Leçon F2L-28",
+                "ko": "레슨 F2L-28",
+                "es": "Lección F2L-28",
+                "pt": "Lição F2L-28",
+                "de": "Lektion F2L-28",
+                "ru": "Урок F2L-28"
+              },
+              "initialState": "WWWWWWWRWWWWWRRDRRWFWFFWFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U R' U' F R' F' R",
+              "hint1": "tutorial/F2L/F2L-28-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-28",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-28",
+                "en": "Final Exam F2L-28",
+                "zh": "结业测试 F2L-28",
+                "fr": "Examen final F2L-28",
+                "ko": "졸업 시험 F2L-28",
+                "es": "Examen final F2L-28",
+                "pt": "Exame final F2L-28",
+                "de": "Abschlussprüfung F2L-28",
+                "ru": "Выпускной экзамен F2L-28"
+              },
+              "initialState": "WWWWWWWRWWWWWRRDRRWFWFFWFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-29",
+          "title": "F2L-29",
+          "image": "tutorial/F2L/start/F2L-29.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-29",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-29",
+                "en": "Lesson F2L-29",
+                "zh": "课程 F2L-29",
+                "fr": "Leçon F2L-29",
+                "ko": "레슨 F2L-29",
+                "es": "Lección F2L-29",
+                "pt": "Lição F2L-29",
+                "de": "Lektion F2L-29",
+                "ru": "Урок F2L-29"
+              },
+              "initialState": "WWWWWWWRWWWWWRRFRRWFWFFWFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U2 R U' R' F' U' F",
+              "hint1": "tutorial/F2L/F2L-29-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-29",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-29",
+                "en": "Final Exam F2L-29",
+                "zh": "结业测试 F2L-29",
+                "fr": "Examen final F2L-29",
+                "ko": "졸업 시험 F2L-29",
+                "es": "Examen final F2L-29",
+                "pt": "Exame final F2L-29",
+                "de": "Abschlussprüfung F2L-29",
+                "ru": "Выпускной экзамен F2L-29"
+              },
+              "initialState": "WWWWWWWRWWWWWRRFRRWFWFFWFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-30",
+          "title": "F2L-30",
+          "image": "tutorial/F2L/start/F2L-30.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-30",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-30",
+                "en": "Lesson F2L-30",
+                "zh": "课程 F2L-30",
+                "fr": "Leçon F2L-30",
+                "ko": "레슨 F2L-30",
+                "es": "Lección F2L-30",
+                "pt": "Lição F2L-30",
+                "de": "Lektion F2L-30",
+                "ru": "Урок F2L-30"
+              },
+              "initialState": "WWWWWFWWWWRWWRRDRRWWWFFWFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U R' U' R U R'",
+              "hint1": "tutorial/F2L/F2L-30-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-30",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-30",
+                "en": "Final Exam F2L-30",
+                "zh": "结业测试 F2L-30",
+                "fr": "Examen final F2L-30",
+                "ko": "졸업 시험 F2L-30",
+                "es": "Examen final F2L-30",
+                "pt": "Exame final F2L-30",
+                "de": "Abschlussprüfung F2L-30",
+                "ru": "Выпускной экзамен F2L-30"
+              },
+              "initialState": "WWWWWFWWWWRWWRRDRRWWWFFWFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-31",
+          "title": "F2L-31",
+          "image": "tutorial/F2L/start/F2L-31.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-31",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-31",
+                "en": "Lesson F2L-31",
+                "zh": "课程 F2L-31",
+                "fr": "Leçon F2L-31",
+                "ko": "레슨 F2L-31",
+                "es": "Lección F2L-31",
+                "pt": "Lição F2L-31",
+                "de": "Lektion F2L-31",
+                "ru": "Урок F2L-31"
+              },
+              "initialState": "WWWWWWWWDFWWFRRWRRWWRFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R' F R F' R U' R'",
+              "hint1": "tutorial/F2L/F2L-31-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-31",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-31",
+                "en": "Final Exam F2L-31",
+                "zh": "结业测试 F2L-31",
+                "fr": "Examen final F2L-31",
+                "ko": "졸업 시험 F2L-31",
+                "es": "Examen final F2L-31",
+                "pt": "Exame final F2L-31",
+                "de": "Abschlussprüfung F2L-31",
+                "ru": "Выпускной экзамен F2L-31"
+              },
+              "initialState": "WWWWWWWWDFWWFRRWRRWWRFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-32",
+          "title": "F2L-32",
+          "image": "tutorial/F2L/start/F2L-32.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-32",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-32",
+                "en": "Lesson F2L-32",
+                "zh": "课程 F2L-32",
+                "fr": "Leçon F2L-32",
+                "ko": "레슨 F2L-32",
+                "es": "Lección F2L-32",
+                "pt": "Lição F2L-32",
+                "de": "Lektion F2L-32",
+                "ru": "Урок F2L-32"
+              },
+              "initialState": "WWWWWWWWDFWWRRRWRRWWRFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R2 U R2 U R2 U2 R2",
+              "hint1": "tutorial/F2L/F2L-32-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-32",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-32",
+                "en": "Final Exam F2L-32",
+                "zh": "结业测试 F2L-32",
+                "fr": "Examen final F2L-32",
+                "ko": "졸업 시험 F2L-32",
+                "es": "Examen final F2L-32",
+                "pt": "Exame final F2L-32",
+                "de": "Abschlussprüfung F2L-32",
+                "ru": "Выпускной экзамен F2L-32"
+              },
+              "initialState": "WWWWWWWWDFWWRRRWRRWWRFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-33",
+          "title": "F2L-33",
+          "image": "tutorial/F2L/start/F2L-33.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-33",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-33",
+                "en": "Lesson F2L-33",
+                "zh": "课程 F2L-33",
+                "fr": "Leçon F2L-33",
+                "ko": "레슨 F2L-33",
+                "es": "Lección F2L-33",
+                "pt": "Lição F2L-33",
+                "de": "Lektion F2L-33",
+                "ru": "Урок F2L-33"
+              },
+              "initialState": "WWWWWWWWFRWWRRRWRRWWDFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R U' R' U2 R U' R'",
+              "hint1": "tutorial/F2L/F2L-33-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-33",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-33",
+                "en": "Final Exam F2L-33",
+                "zh": "结业测试 F2L-33",
+                "fr": "Examen final F2L-33",
+                "ko": "졸업 시험 F2L-33",
+                "es": "Examen final F2L-33",
+                "pt": "Exame final F2L-33",
+                "de": "Abschlussprüfung F2L-33",
+                "ru": "Выпускной экзамен F2L-33"
+              },
+              "initialState": "WWWWWWWWFRWWRRRWRRWWDFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-34",
+          "title": "F2L-34",
+          "image": "tutorial/F2L/start/F2L-34.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-34",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-34",
+                "en": "Lesson F2L-34",
+                "zh": "课程 F2L-34",
+                "fr": "Leçon F2L-34",
+                "ko": "레슨 F2L-34",
+                "es": "Lección F2L-34",
+                "pt": "Lição F2L-34",
+                "de": "Lektion F2L-34",
+                "ru": "Урок F2L-34"
+              },
+              "initialState": "WWWWWWWWRDWWRRRWRRWWFFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R U2 R' U R U R'",
+              "hint1": "tutorial/F2L/F2L-34-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-34",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-34",
+                "en": "Final Exam F2L-34",
+                "zh": "结业测试 F2L-34",
+                "fr": "Examen final F2L-34",
+                "ko": "졸업 시험 F2L-34",
+                "es": "Examen final F2L-34",
+                "pt": "Exame final F2L-34",
+                "de": "Abschlussprüfung F2L-34",
+                "ru": "Выпускной экзамен F2L-34"
+              },
+              "initialState": "WWWWWWWWRDWWRRRWRRWWFFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-35",
+          "title": "F2L-35",
+          "image": "tutorial/F2L/start/F2L-35.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-35",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-35",
+                "en": "Lesson F2L-35",
+                "zh": "课程 F2L-35",
+                "fr": "Leçon F2L-35",
+                "ko": "레슨 F2L-35",
+                "es": "Lección F2L-35",
+                "pt": "Lição F2L-35",
+                "de": "Lektion F2L-35",
+                "ru": "Урок F2L-35"
+              },
+              "initialState": "WWWWWWWWFRWWFRRWRRWWDFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' R U R' U F' U' F",
+              "hint1": "tutorial/F2L/F2L-35-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-35",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-35",
+                "en": "Final Exam F2L-35",
+                "zh": "结业测试 F2L-35",
+                "fr": "Examen final F2L-35",
+                "ko": "졸업 시험 F2L-35",
+                "es": "Examen final F2L-35",
+                "pt": "Exame final F2L-35",
+                "de": "Abschlussprüfung F2L-35",
+                "ru": "Выпускной экзамен F2L-35"
+              },
+              "initialState": "WWWWWWWWFRWWFRRWRRWWDFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-36",
+          "title": "F2L-36",
+          "image": "tutorial/F2L/start/F2L-36.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-36",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-36",
+                "en": "Lesson F2L-36",
+                "zh": "课程 F2L-36",
+                "fr": "Leçon F2L-36",
+                "ko": "레슨 F2L-36",
+                "es": "Lección F2L-36",
+                "pt": "Lição F2L-36",
+                "de": "Lektion F2L-36",
+                "ru": "Урок F2L-36"
+              },
+              "initialState": "WWWWWWWWRDWWFRRWRRWWFFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U F' U' F U' R U R'",
+              "hint1": "tutorial/F2L/F2L-36-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-36",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-36",
+                "en": "Final Exam F2L-36",
+                "zh": "结业测试 F2L-36",
+                "fr": "Examen final F2L-36",
+                "ko": "졸업 시험 F2L-36",
+                "es": "Examen final F2L-36",
+                "pt": "Exame final F2L-36",
+                "de": "Abschlussprüfung F2L-36",
+                "ru": "Выпускной экзамен F2L-36"
+              },
+              "initialState": "WWWWWWWWRDWWFRRWRRWWFFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-37",
+          "title": "F2L-37",
+          "image": "tutorial/F2L/start/F2L-37.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-37",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-37",
+                "en": "Lesson F2L-37",
+                "zh": "课程 F2L-37",
+                "fr": "Leçon F2L-37",
+                "ko": "레슨 F2L-37",
+                "es": "Lección F2L-37",
+                "pt": "Lição F2L-37",
+                "de": "Lektion F2L-37",
+                "ru": "Урок F2L-37"
+              },
+              "initialState": "WWWWWWWWWWWWFRRRRRWWWFFRFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R2 U2 F R2 F' U2 R' U R'",
+              "hint1": "tutorial/F2L/F2L-37-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-37",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-37",
+                "en": "Final Exam F2L-37",
+                "zh": "结业测试 F2L-37",
+                "fr": "Examen final F2L-37",
+                "ko": "졸업 시험 F2L-37",
+                "es": "Examen final F2L-37",
+                "pt": "Exame final F2L-37",
+                "de": "Abschlussprüfung F2L-37",
+                "ru": "Выпускной экзамен F2L-37"
+              },
+              "initialState": "WWWWWWWWWWWWFRRRRRWWWFFRFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-38",
+          "title": "F2L-38",
+          "image": "tutorial/F2L/start/F2L-38.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-38",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-38",
+                "en": "Lesson F2L-38",
+                "zh": "课程 F2L-38",
+                "fr": "Leçon F2L-38",
+                "ko": "레슨 F2L-38",
+                "es": "Lección F2L-38",
+                "pt": "Lição F2L-38",
+                "de": "Lektion F2L-38",
+                "ru": "Урок F2L-38"
+              },
+              "initialState": "WWWWWWWWWWWWRRRFRRWWWFFFFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R2 U2 R' U' R U' R' U2 R'",
+              "hint1": "tutorial/F2L/F2L-38-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-38",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-38",
+                "en": "Final Exam F2L-38",
+                "zh": "结业测试 F2L-38",
+                "fr": "Examen final F2L-38",
+                "ko": "졸업 시험 F2L-38",
+                "es": "Examen final F2L-38",
+                "pt": "Exame final F2L-38",
+                "de": "Abschlussprüfung F2L-38",
+                "ru": "Выпускной экзамен F2L-38"
+              },
+              "initialState": "WWWWWWWWWWWWRRRFRRWWWFFFFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-39",
+          "title": "F2L-39",
+          "image": "tutorial/F2L/start/F2L-39.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-39",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-39",
+                "en": "Lesson F2L-39",
+                "zh": "课程 F2L-39",
+                "fr": "Leçon F2L-39",
+                "ko": "레슨 F2L-39",
+                "es": "Lección F2L-39",
+                "pt": "Lição F2L-39",
+                "de": "Lektion F2L-39",
+                "ru": "Урок F2L-39"
+              },
+              "initialState": "WWWWWWWWWWWWRRRDRRWWWFFFFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U2 R U R' U R U2 R2",
+              "hint1": "tutorial/F2L/F2L-39-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-39",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-39",
+                "en": "Final Exam F2L-39",
+                "zh": "结业测试 F2L-39",
+                "fr": "Examen final F2L-39",
+                "ko": "졸업 시험 F2L-39",
+                "es": "Examen final F2L-39",
+                "pt": "Exame final F2L-39",
+                "de": "Abschlussprüfung F2L-39",
+                "ru": "Выпускной экзамен F2L-39"
+              },
+              "initialState": "WWWWWWWWWWWWRRRDRRWWWFFFFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-40",
+          "title": "F2L-40",
+          "image": "tutorial/F2L/start/F2L-40.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-40",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-40",
+                "en": "Lesson F2L-40",
+                "zh": "课程 F2L-40",
+                "fr": "Leçon F2L-40",
+                "ko": "레슨 F2L-40",
+                "es": "Lección F2L-40",
+                "pt": "Lição F2L-40",
+                "de": "Lektion F2L-40",
+                "ru": "Урок F2L-40"
+              },
+              "initialState": "WWWWWWWWWWWWFRRFRRWWWFFRFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "F' U F B' R B U2 B' R' B",
+              "hint1": "tutorial/F2L/F2L-40-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-40",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-40",
+                "en": "Final Exam F2L-40",
+                "zh": "结业测试 F2L-40",
+                "fr": "Examen final F2L-40",
+                "ko": "졸업 시험 F2L-40",
+                "es": "Examen final F2L-40",
+                "pt": "Exame final F2L-40",
+                "de": "Abschlussprüfung F2L-40",
+                "ru": "Выпускной экзамен F2L-40"
+              },
+              "initialState": "WWWWWWWWWWWWFRRFRRWWWFFRFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
+            }
+          ]
+        },
+        {
+          "id": "F2L-41",
+          "title": "F2L-41",
+          "image": "tutorial/F2L/start/F2L-41.png",
+          "items": [
+            {
+              "id": "F2L-lesson-F2L-41",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-41",
+                "en": "Lesson F2L-41",
+                "zh": "课程 F2L-41",
+                "fr": "Leçon F2L-41",
+                "ko": "레슨 F2L-41",
+                "es": "Lección F2L-41",
+                "pt": "Lição F2L-41",
+                "de": "Lektion F2L-41",
+                "ru": "Урок F2L-41"
+              },
+              "initialState": "WWWWWWWWWWWWFRRDRRWWWFFRFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R U' R' L F' L' U2 L F L'",
+              "hint1": "tutorial/F2L/F2L-41-hint.png"
+            },
+            {
+              "id": "F2L-exam-F2L-41",
+              "type": "exam",
+              "title": {
+                "ja": "卒業試験 F2L-41",
+                "en": "Final Exam F2L-41",
+                "zh": "结业测试 F2L-41",
+                "fr": "Examen final F2L-41",
+                "ko": "졸업 시험 F2L-41",
+                "es": "Examen final F2L-41",
+                "pt": "Exame final F2L-41",
+                "de": "Abschlussprüfung F2L-41",
+                "ru": "Выпускной экзамен F2L-41"
+              },
+              "initialState": "WWWWWWWWWWWWFRRDRRWWWFFRFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
+              "goalState": "WWWWWWWWWWWWRRRRRRWWWFFFFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB"
             }
           ]
         }
