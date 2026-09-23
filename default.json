@@ -1,6 +1,6 @@
 {
   "format": "cubew-tutorial-v1",
-  "version": "d5343554",
+  "version": "fda57d6e",
   "levels": [
     {
       "id": "terms",
@@ -276,7 +276,7 @@
       },
       "steps": [
         {
-          "id": "LBL-step0-abstract",
+          "id": "LBL-step0-abstruct",
           "title": {
             "en": "What is the LBL method?",
             "ja": "LBL法とは",
@@ -1619,21 +1619,39 @@
           "image": "tutorial/F2L/start/F2L-01.png",
           "items": [
             {
-              "id": "F2L-lesson-F2L-01",
+              "id": "F2L-lesson-F2L-01-1",
               "type": "lesson",
               "title": {
-                "ja": "レッスン F2L-01",
-                "en": "Lesson F2L-01",
-                "zh": "课程 F2L-01",
-                "fr": "Leçon F2L-01",
-                "ko": "레슨 F2L-01",
-                "es": "Lección F2L-01",
-                "pt": "Lição F2L-01",
-                "de": "Lektion F2L-01",
-                "ru": "Урок F2L-01"
+                "ja": "レッスン F2L-01 (1)",
+                "en": "Lesson F2L-01 (1)",
+                "zh": "课程 F2L-01 (1)",
+                "fr": "Leçon F2L-01 (1)",
+                "ko": "레슨 F2L-01 (1)",
+                "es": "Lección F2L-01 (1)",
+                "pt": "Lição F2L-01 (1)",
+                "de": "Lektion F2L-01 (1)",
+                "ru": "Урок F2L-01 (1)"
               },
               "initialState": "WWWWWFWWFRRWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
               "moves": "U R U' R'",
+              "hint1": "tutorial/F2L/F2L-01-hint.png"
+            },
+            {
+              "id": "F2L-lesson-F2L-01-2",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-01 (2)",
+                "en": "Lesson F2L-01 (2)",
+                "zh": "课程 F2L-01 (2)",
+                "fr": "Leçon F2L-01 (2)",
+                "ko": "레슨 F2L-01 (2)",
+                "es": "Lección F2L-01 (2)",
+                "pt": "Lição F2L-01 (2)",
+                "de": "Lektion F2L-01 (2)",
+                "ru": "Урок F2L-01 (2)"
+              },
+              "initialState": "WWWWWFWWFRRWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "R' F R F'",
               "hint1": "tutorial/F2L/F2L-01-hint.png"
             },
             {
@@ -1661,18 +1679,36 @@
           "image": "tutorial/F2L/start/F2L-02.png",
           "items": [
             {
-              "id": "F2L-lesson-F2L-02",
+              "id": "F2L-lesson-F2L-02-1",
               "type": "lesson",
               "title": {
-                "ja": "レッスン F2L-02",
-                "en": "Lesson F2L-02",
-                "zh": "课程 F2L-02",
-                "fr": "Leçon F2L-02",
-                "ko": "레슨 F2L-02",
-                "es": "Lección F2L-02",
-                "pt": "Lição F2L-02",
-                "de": "Lektion F2L-02",
-                "ru": "Урок F2L-02"
+                "ja": "レッスン F2L-02 (1)",
+                "en": "Lesson F2L-02 (1)",
+                "zh": "课程 F2L-02 (1)",
+                "fr": "Leçon F2L-02 (1)",
+                "ko": "레슨 F2L-02 (1)",
+                "es": "Lección F2L-02 (1)",
+                "pt": "Lição F2L-02 (1)",
+                "de": "Lektion F2L-02 (1)",
+                "ru": "Урок F2L-02 (1)"
+              },
+              "initialState": "WWWWWWWRRDWWWRRWRRWFFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
+              "moves": "U' F' U F",
+              "hint1": "tutorial/F2L/F2L-02-hint.png"
+            },
+            {
+              "id": "F2L-lesson-F2L-02-2",
+              "type": "lesson",
+              "title": {
+                "ja": "レッスン F2L-02 (2)",
+                "en": "Lesson F2L-02 (2)",
+                "zh": "课程 F2L-02 (2)",
+                "fr": "Leçon F2L-02 (2)",
+                "ko": "레슨 F2L-02 (2)",
+                "es": "Lección F2L-02 (2)",
+                "pt": "Lição F2L-02 (2)",
+                "de": "Lektion F2L-02 (2)",
+                "ru": "Урок F2L-02 (2)"
               },
               "initialState": "WWWWWWWRRDWWWRRWRRWFFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
               "moves": "F R' F' R",
@@ -1843,7 +1879,7 @@
                 "ru": "Урок F2L-06"
               },
               "initialState": "WWWRWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
-              "moves": "U' L F' R' F R F L'",
+              "moves": "U F' U' F U2' F' U F",
               "hint1": "tutorial/F2L/F2L-06-hint.png"
             },
             {
@@ -1885,7 +1921,7 @@
                 "ru": "Урок F2L-07"
               },
               "initialState": "WWWFWWWWFRWWWRRWRRWWDFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
-              "moves": "U' R U2 R' U2 R U' R'",
+              "moves": "U' R U2' R' U2 R U' R'",
               "hint1": "tutorial/F2L/F2L-07-hint.png"
             },
             {
@@ -1927,7 +1963,7 @@
                 "ru": "Урок F2L-08"
               },
               "initialState": "WRWWWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
-              "moves": "L' B2 R2 B R2 B L",
+              "moves": "U F' U2 F U2' F' U F",
               "hint1": "tutorial/F2L/F2L-08-hint.png"
             },
             {
@@ -2011,7 +2047,7 @@
                 "ru": "Урок F2L-10"
               },
               "initialState": "WWWFWWWWRDWWWRRWRRWWFFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
-              "moves": "U' R U R' U R U R'",
+              "moves": "U F' U F U' R U R'",
               "hint1": "tutorial/F2L/F2L-10-hint.png"
             },
             {
@@ -2053,7 +2089,7 @@
                 "ru": "Урок F2L-11"
               },
               "initialState": "WWWWWRWWFRFWWRRWRRWWDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U' R U2 R' U F' U' F",
+              "moves": "U' R U2' R' U F' U' F",
               "hint1": "tutorial/F2L/F2L-11-hint.png"
             },
             {
@@ -2095,7 +2131,7 @@
                 "ru": "Урок F2L-12"
               },
               "initialState": "WWWWWWWFRDWWWRRWRRWRFFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R' U2 R2 U R2 U R",
+              "moves": "U F' U2 F U' R U R'",
               "hint1": "tutorial/F2L/F2L-12-hint.png"
             },
             {
@@ -2137,7 +2173,7 @@
                 "ru": "Урок F2L-13"
               },
               "initialState": "WWWWWWWRFRWWWRRWRRWFDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R U' R' U R' F R F' R U' R'",
+              "moves": "U F' U F U' F' U' F",
               "hint1": "tutorial/F2L/F2L-13-hint.png"
             },
             {
@@ -2221,7 +2257,7 @@
                 "ru": "Урок F2L-15"
               },
               "initialState": "WWWWWWWFFRWWWRRWRRWRDFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U R' F R F' U R U R'",
+              "moves": "F' U F U2' R U R'",
               "hint1": "tutorial/F2L/F2L-15-hint.png"
             },
             {
@@ -2347,7 +2383,7 @@
                 "ru": "Урок F2L-18"
               },
               "initialState": "WWWWWWWRDFWWWRRWRRWFRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R' F R F' R U' R' U R U' R'",
+              "moves": "F' U2' F U F' U' F",
               "hint1": "tutorial/F2L/F2L-18-hint.png"
             },
             {
@@ -2389,7 +2425,7 @@
                 "ru": "Урок F2L-19"
               },
               "initialState": "WFWWWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWRWBBBBBB",
-              "moves": "U R U2 R2 F R F'",
+              "moves": "U R U2' R' U R U' R'",
               "hint1": "tutorial/F2L/F2L-19-hint.png"
             },
             {
@@ -2431,7 +2467,7 @@
                 "ru": "Урок F2L-20"
               },
               "initialState": "WWWRWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWFWLLLLLLWWWBBBBBB",
-              "moves": "U' R U' R2 F R F' R U' R'",
+              "moves": "U' F' U2 F U' F' U F",
               "hint1": "tutorial/F2L/F2L-20-hint.png"
             },
             {
@@ -2473,7 +2509,7 @@
                 "ru": "Урок F2L-21"
               },
               "initialState": "WWWFWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWRWLLLLLLWWWBBBBBB",
-              "moves": "R U' R' U2 R U R'",
+              "moves": "R U' R' U2' R U R'",
               "hint1": "tutorial/F2L/F2L-21-hint.png"
             },
             {
@@ -2515,7 +2551,7 @@
                 "ru": "Урок F2L-22"
               },
               "initialState": "WRWWWWWWDFWWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWFWBBBBBB",
-              "moves": "F' L' U2 L F",
+              "moves": "F' U F U2 F' U' F",
               "hint1": "tutorial/F2L/F2L-22-hint.png"
             },
             {
@@ -2557,7 +2593,7 @@
                 "ru": "Урок F2L-23"
               },
               "initialState": "WWWWWWWFDFWWWRRWRRWRRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U2 R2 U2 R' U' R U' R2",
+              "moves": "U R U' R' U' R U' R' U R U' R'",
               "hint1": "tutorial/F2L/F2L-23-hint.png"
             },
             {
@@ -2599,7 +2635,7 @@
                 "ru": "Урок F2L-24"
               },
               "initialState": "WWWWWRWWDFFWWRRWRRWWRFFWFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "F U R U' R' F' R U' R'",
+              "moves": "U' F' U F U F' U F U' F' U F",
               "hint1": "tutorial/F2L/F2L-24-hint.png"
             },
             {
@@ -2641,7 +2677,7 @@
                 "ru": "Урок F2L-25"
               },
               "initialState": "WWWWWFWWWWRWWRRRRRWWWFFWFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U' R' F R F' R U R'",
+              "moves": "U' F' U F U R U' R'",
               "hint1": "tutorial/F2L/F2L-25-hint.png"
             },
             {
@@ -2725,7 +2761,7 @@
                 "ru": "Урок F2L-27"
               },
               "initialState": "WWWWWFWWWWRWWRRFRRWWWFFWFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R U' R2 F R F'",
+              "moves": "R U' R' U R U' R'",
               "hint1": "tutorial/F2L/F2L-27-hint.png"
             },
             {
@@ -2767,7 +2803,7 @@
                 "ru": "Урок F2L-28"
               },
               "initialState": "WWWWWWWRWWWWWRRDRRWFWFFWFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R U R' U' F R' F' R",
+              "moves": "F' U F U' F' U F",
               "hint1": "tutorial/F2L/F2L-28-hint.png"
             },
             {
@@ -2809,7 +2845,7 @@
                 "ru": "Урок F2L-29"
               },
               "initialState": "WWWWWWWRWWWWWRRFRRWFWFFWFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U2 R U' R' F' U' F",
+              "moves": "F' U' F U F' U' F",
               "hint1": "tutorial/F2L/F2L-29-hint.png"
             },
             {
@@ -2893,7 +2929,7 @@
                 "ru": "Урок F2L-31"
               },
               "initialState": "WWWWWWWWDFWWFRRWRRWWRFFRFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U' R' F R F' R U' R'",
+              "moves": "R U' R' U F' U F",
               "hint1": "tutorial/F2L/F2L-31-hint.png"
             },
             {
@@ -2935,7 +2971,7 @@
                 "ru": "Урок F2L-32"
               },
               "initialState": "WWWWWWWWDFWWRRRWRRWWRFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R2 U R2 U R2 U2 R2",
+              "moves": "U R U' R' U R U' R' U R U' R'",
               "hint1": "tutorial/F2L/F2L-32-hint.png"
             },
             {
@@ -3019,7 +3055,7 @@
                 "ru": "Урок F2L-34"
               },
               "initialState": "WWWWWWWWRDWWRRRWRRWWFFFFFFWDDWDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "U' R U2 R' U R U R'",
+              "moves": "U F' U F U2' F' U F",
               "hint1": "tutorial/F2L/F2L-34-hint.png"
             },
             {
@@ -3145,7 +3181,7 @@
                 "ru": "Урок F2L-37"
               },
               "initialState": "WWWWWWWWWWWWFRRRRRWWWFFRFFFDDDDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R2 U2 F R2 F' U2 R' U R'",
+              "moves": "R U2 R' U R U2 R' U F' U' F",
               "hint1": "tutorial/F2L/F2L-37-hint.png"
             },
             {
@@ -3187,7 +3223,7 @@
                 "ru": "Урок F2L-38"
               },
               "initialState": "WWWWWWWWWWWWRRRFRRWWWFFFFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R2 U2 R' U' R U' R' U2 R'",
+              "moves": "R U' R' U' R U R' U2 R U' R'",
               "hint1": "tutorial/F2L/F2L-38-hint.png"
             },
             {
@@ -3229,7 +3265,7 @@
                 "ru": "Урок F2L-39"
               },
               "initialState": "WWWWWWWWWWWWRRRDRRWWWFFFFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R U2 R U R' U R U2 R2",
+              "moves": "F' U F U F' U' F U2' F' U F",
               "hint1": "tutorial/F2L/F2L-39-hint.png"
             },
             {
@@ -3271,7 +3307,7 @@
                 "ru": "Урок F2L-40"
               },
               "initialState": "WWWWWWWWWWWWFRRFRRWWWFFRFFDDDRDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "F' U F B' R B U2 B' R' B",
+              "moves": "F' U F R U' R' U2 R U R'",
               "hint1": "tutorial/F2L/F2L-40-hint.png"
             },
             {
@@ -3313,7 +3349,7 @@
                 "ru": "Урок F2L-41"
               },
               "initialState": "WWWWWWWWWWWWFRRDRRWWWFFRFFRDDFDDDDDDWWWLLLLLLWWWBBBBBB",
-              "moves": "R U' R' L F' L' U2 L F L'",
+              "moves": "R U' R' F' U F U2' F' U' F",
               "hint1": "tutorial/F2L/F2L-41-hint.png"
             },
             {
