@@ -1,6 +1,6 @@
 # cubew_tutorial
 
-Tutorial data (LBL method and F2L) for the [cubew](https://cubew.itachiwalker.workers.dev/) app ([source code](https://github.com/itachiwalker/cubew)) — a 3x3 cube puzzle simulator.
+Tutorial data (LBL method and F2L) for the [cubew](https://cubew.itachiwalker.com/) app ([source code](https://github.com/itachiwalker/cubew)) — a 3x3 cube puzzle simulator.
 
 The data in this repository is published under the **MIT License**. Feel free to fork it and modify/redistribute it as you like.
 
@@ -22,7 +22,7 @@ See [schema.md](./schema.md) for how to write `default.json` (field meanings, `m
 
 ## How it's used
 
-The `default.json` and image files in this repository are bundled directly into the [cubew](https://cubew.itachiwalker.workers.dev/) app ([source code](https://github.com/itachiwalker/cubew)). The app's "Tutorial" feature (the 📚 button) displays step-by-step lessons and exams based on this data.
+The `default.json` and image files in this repository are bundled directly into the [cubew](https://cubew.itachiwalker.com/) app ([source code](https://github.com/itachiwalker/cubew)). The app's "Tutorial" feature (the 📚 button) displays step-by-step lessons and exams based on this data.
 
 Currently, the cubew app **only works by bundling the data from this repository directly**. Support for loading external tutorial data from an arbitrary URL is planned for a future release (once that's added, you'll be able to fork this repository, build your own tutorial, and publish/use it as-is).
 

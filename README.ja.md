@@ -1,6 +1,6 @@
 # cubew_tutorial
 
-[cubew](https://cubew.itachiwalker.workers.dev/)（[ソースコード](https://github.com/itachiwalker/cubew)）アプリで使用する、3x3キューブパズルのチュートリアルデータ（LBL法・F2L）です。
+[cubew](https://cubew.itachiwalker.com/)（[ソースコード](https://github.com/itachiwalker/cubew)）アプリで使用する、3x3キューブパズルのチュートリアルデータ（LBL法・F2L）です。
 
 このリポジトリのデータは **MITライセンス** で公開されています。フォークして自由に改変・再配布いただけます。
 
@@ -22,7 +22,7 @@ schema.md / schema.ja.md   # default.json の記法・スキーマ仕様書（�
 
 ## 使われ方
 
-このリポジトリの `default.json` と画像一式は、[cubew](https://cubew.itachiwalker.workers.dev/)（[ソースコード](https://github.com/itachiwalker/cubew)）アプリにそのまま同梱される形で使われています。アプリ内の「チュートリアル」機能（📚ボタン）から、このデータに基づいた段階的なレッスン・確認テストが表示されます。
+このリポジトリの `default.json` と画像一式は、[cubew](https://cubew.itachiwalker.com/)（[ソースコード](https://github.com/itachiwalker/cubew)）アプリにそのまま同梱される形で使われています。アプリ内の「チュートリアル」機能（📚ボタン）から、このデータに基づいた段階的なレッスン・確認テストが表示されます。
 
 現時点では、cubewアプリは**このリポジトリのデータを直接同梱する形**でのみ動作します。任意のURLを指定して外部のチュートリアルデータを読み込む機能は今後追加予定です（対応後は、このリポジトリをフォークして独自のチュートリアルを作り、そのまま公開・利用できるようになります）。
 
