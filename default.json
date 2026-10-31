@@ -1,6 +1,6 @@
 {
   "format": "cubew-tutorial-v1",
-  "version": "42bdf7e3",
+  "version": "57dbd4e4",
   "levels": [
     {
       "id": "terms",
@@ -1583,7 +1583,7 @@
         "es": "F2L (41 patrones en total)",
         "pt": "F2L (41 padrões no total)",
         "de": "F2L (alle 41 Muster)",
-        "ru": "F2L (все 41 паттернов)"
+        "ru": "F2L (все 41 паттерн)"
       },
       "steps": [
         {
