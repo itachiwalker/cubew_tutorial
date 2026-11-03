@@ -84,7 +84,7 @@ Setting `items` to an empty array (`[]`) turns a step into a glossary-only step,
 { "ja": "日本語", "en": "English", "zh": "中文", "fr": "Français", "ko": "한국어", "es": "Español", "pt": "Português", "de": "Deutsch", "ru": "Русский" }
 ```
 
-The 9 supported languages are listed above. If you can't provide all languages, a plain string (e.g. `"title": "Test"`) is also accepted (in that case, the same text is shown for every language). If only some languages are missing, the app falls back to English, then Japanese.
+The 20 supported languages are the keys above plus `id`, `uk`, `zhtw` (Traditional Chinese; `zh` is Simplified), `ms`, `vi`, `pl`, `nl`, `th`, `tl`, `sv` and `hu`. If you can't provide all languages, a plain string (e.g. `"title": "Test"`) is also accepted (in that case, the same text is shown for every language). If only some languages are missing, the app falls back to English, then Japanese.
 
 ---
 
